@@ -1,0 +1,12 @@
+hand.jpg : Lasso Tool, Magnetic Lasso Tool, Quick Selection Tool, Magic Wand Tool
+
+Select Inverse
+
+car : [1] Dodge Tool, [2] Burn Tool, [3] Sponge Tool
+
+북극곰, 콜라
+
+장미 - 컬러보정
+1. Image - Adjustment - Hue / Saturation (레이어 하나하나에 적용)
+2. 반갈동글이 - Hue / Saturation (클리핑된 것의 밑으로 다 적용)
+클리핑된 레이어와 레이어 사이에 Alt 버튼을 누르고 적용 / 해제
