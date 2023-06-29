@@ -1,0 +1,37 @@
+일러스트 > Window - Control
+	> Window - Toolbar - Advanced
+	> Window - Color
+
+Fill / Stroke
+
+Artboard Tool : 아트보드 이동, 크기 조절
+
+*****
+
+[A4 가로 열고 작업하기]
+
+1. Layer 1
+Selection : 움직이기, 선택, 다중선택
+Direct Selection : 선택 (꼭짓점 /  선 바꾸기)
+
+Object > Group / Ungroup
+
+Group Selection : 그룹 안에서의 도형 수정 가능
+
+2. Layer 2 (펜툴 연습)
+- 면 X, 선은 색을 넣는다
+- Shift 잡고 하면 수평-수직-45도 모양
+- 꽉 누르면 곡선, 계속 꽉 누르면 곡선, 꽉 안하면 직선
+- Direct Selection으로 핸들 조정, 포인트 위치 변경, 형태 다듬기
+
+- 영역을 누르고 Smooth Tool(도형툴 밑에서 선택)로 만져주기
+- Pencil Tool
+
+- 직사각형
+- 원
+- 폴리곤 (붙잡고 키보드 위아래 키)
+- 별
+(Direction Tool로 라운드를 정할 수 있다)
+
+========================================================
+
