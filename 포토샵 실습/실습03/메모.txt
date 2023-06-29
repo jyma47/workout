@@ -43,6 +43,8 @@ Group Selection : 그룹 안에서의 도형 수정 가능
 - 우주선 패스 따고 저장 (Selection 으로 만들기)
 - 부메랑 같은 것 : 대략 보고 그리기 (Path는 Shape으로)
 - Custom Shape Tool로 구멍 뚫기 (Excluding 선택하고)
-- 글씨 : 일러스트에서 가져오기
-- 육각형 : Shape Tool로 만들고, opacity 줄이기
+- 글씨.ai : 일러스트에서 가져오기 (Smart Object / Pixels / Path / Shape Layer)
+- 육각형 : Custom Shape Tool, opacity 줄이기
 
+Smart Object : 일러스트에서 수정
+Shape Layer : 포토샵에서 수정
