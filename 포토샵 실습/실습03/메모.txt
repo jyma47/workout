@@ -35,3 +35,14 @@ Group Selection : 그룹 안에서의 도형 수정 가능
 
 ========================================================
 
+3. 택시
+- 펜툴 Shape 모드로 외곽선을 딴다
+- 창, 라이트 부분은 'Exclude Overlapping Shape'로 빼준다
+
+4. 배경, 우주선
+- 우주선 패스 따고 저장 (Selection 으로 만들기)
+- 부메랑 같은 것 : 대략 보고 그리기 (Path는 Shape으로)
+- Custom Shape Tool로 구멍 뚫기 (Excluding 선택하고)
+- 글씨 : 일러스트에서 가져오기
+- 육각형 : Shape Tool로 만들고, opacity 줄이기
+
