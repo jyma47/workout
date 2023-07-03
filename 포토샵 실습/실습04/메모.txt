@@ -1,0 +1,35 @@
+레이어 더블클릭해서 선택할 레이어 색 바꾸기
+그룹 셀렉션 툴 / 다이렉트 셀렉션 툴의 차이
+아웃라인 : Ctrl + Y
+
+================
+
+1. 그룹 복사 회전 반사 실습
+- 그룹 : Ctrl + G / Ctrl + Shift + G
+- 이동 : 각도 잡도 이동 (Shift) 오브젝트 복사이동 (Alt)
+Ctrl+D : 명령을 기억하고 복제
+- 복사 : Ctrl + F (Front) Ctrl + B (Back)
+Ctrl + C , Ctrl + V : 화면의 중앙에 온다
+
+(정원을 그림 - Ctrl+B로 조금씩 키우기)
+
+로테이트 툴 더블클릭하고 각도 바꾸기 (OK 와 Copy)
+Alt 잡고 중심점 이동
+30도 Copy 하고 Ctrl + D
+
+Rotate Tool 밑에 Reflect Tool
+
+- 정렬 : Ctrl + Shift + ] / Ctrl + Shift + [
+
+
+2. 동물 캐릭터
+
+File > Place > 원하는 파일
+
+
+3. 생일카드
+
+- 패스파인더
+- 클리핑 마스크 : Make Clipping Mask (Ctrl + 7 / Ctrl + Shift + 7)
+
+- Export As
