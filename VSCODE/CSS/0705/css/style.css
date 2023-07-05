@@ -1,4 +1,46 @@
+@charset 'UTF-8';
+
 h2 {
     color:#5da30d;
     font-size:12px;
-}     
+}
+
+/*
+    ~ CSS 작성 순서 ~
+    HTML의 DOM 구조에 맞추어 CSS를 작성한다.
+    부모 요소와 자식 요소의 관계를 CSS 작성에서도 순서로 사용한다.
+
+*/
+
+/* 네이버 로그인 박스 */
+#login {
+    width:420px;
+    height:190px;
+    border:2px solid #666;
+    border-radius: 8px;
+    padding: 21px 20px 18px;
+    line-height: 20px;
+    text-align:center;
+    box-sizing:border-box;
+    background-color: #FFF;
+}
+
+.text {
+
+}
+
+.login_btn {
+    width:100%; /* 420px에서 패딩이 빠진 380px */
+    height:55px;
+    background-color: #03c75a;
+    border: 1px solid rgba(0,0,0,.06);
+    border-radius: 4px;
+    box-sizing:border-box;
+    line-height:55px;
+    color:#FFF;
+    margin-bottom:15px;
+}
+
+.find {
+
+}
