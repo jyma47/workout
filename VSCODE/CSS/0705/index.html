@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS 기본</title>
+    <!-- 외부 CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- 내부 CSS -->
+    <style type="text/css">
+        /* 내부 CSS : 문서 내부에 css를 선언하는 방법 */
+        h1 {
+            color:#FF0; /* 인라인 스타일이 우선 적용 */
+            text-decoration:underline;
+        }
+
+        h2 {
+            color:#5da30d;
+            font-size:12px;
+        }        
+    </style>
 </head>
 <body>
-    
+    <h1 style="color:#F00;font-size:50px;">CSS 선언방법 3가지</h1>
+    <!-- 원래 h1의 크기 : 2em(2*16px) -->
+    <h2>인라인 CSS : 태그에 직접 적용하기</h2>
+    <h2>내부 CSS : html 문서 head 안에 style 태그로 적용하기</h2>
+    <h2>외부 CSS : css 문서를 html에 link로 연결하여 적용하기</h2>
+    <hr>
+    <h1 style="color:#00F;font-size:40px;">기본 선택자 3가지</h1>
+    <h2>태그 선택자 : 태그에 속성을 지정하는 것으로, 모든 태그에 적용됨</h2>
+    <h2>클래스 선택자 : 클래스는 점(.)으로 표시하고, 클래스 이름을 만들어 적용함</h2>
+    <h2>아이디 선택자 : 아이디는 샵(#)으로 표시하고, 아이디 이름을 만들어 적용함</h2>
 </body>
 </html>
