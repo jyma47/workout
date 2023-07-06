@@ -56,13 +56,29 @@ body {
     height:300px;
     background:#CCF;
     border:5px solid #000;
-    padding:20px;
-    margin:50px;
+    /* padding:20px; */
+    padding:50px 10px 0 30px;
+    /* margin:50px; */
+    /* margin:0 auto; */
+    margin:100px auto;
     box-sizing:border-box;
+    /* padding-left:100px; */
 }
 
 /* 
-    box의 크기
+    ~ box의 크기 ~
     가로 : left-border + left-padding + contents width + right-padding + right-border
     세로 : top-border + top-padding + contents height + bottom-padding + bottom-border
+
+    ~ 여백의 설정 ~
+    margin:50px; // 4변에 모두 같은 값으로 여백 적용
+    margin: top right bottom left; // 4변에 값을 줄 때는 시계방향으로 작성하여 따로 설정
+    margin: 상하 좌우 ; // 상하 여백 값이 같게, 좌우 여백 값이 같게
+    margin-left : 50px; // 왼쪽 여백만 설정
+    margin-right : 50px; // 오른쪽 여백만 설정
+    margin-top : 50px; // 윗쪽 여백만 설정
+    margin-bottom : 50px; // 아랫쪽 여백만 설정
+    
+    margin: 0 auto; // 콘텐츠 박스를 화면 가운데에 정렬.
+    (상하 여백은 0, 좌우 여백은 콘텐츠 박스의 크기를 제외한 나머지를 좌우 반반 auto로 나눠준다)
 */
