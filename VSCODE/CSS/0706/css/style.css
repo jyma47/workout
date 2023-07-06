@@ -129,7 +129,8 @@ body {
     background-image: url(../img/bg1.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 #area3 {
     width:100%;
@@ -138,7 +139,7 @@ body {
     background-image: url(../img/bg2.jpg);
     background-repeat: no-repeat;
     background-position: top right;
-    background-size: 100%;
+    background-size: contain;
 }
 #area4 {
     width:100%;
