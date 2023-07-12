@@ -3,3 +3,19 @@
 body {
     background:#CCF;
 }
+
+/* webfont */
+
+.webfont1 {
+    font-family: 'Hahmlet', serif;
+    font-size:40px;
+    color:#FFF;
+    font-weight: 400;
+}
+
+.webfont2 {
+    font-family: 'Vidaloka', serif;
+    font-size:40px;
+    color:#00F;
+    text-decoration: underline;
+}
