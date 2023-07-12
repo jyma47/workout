@@ -19,3 +19,123 @@ body {
     color:#00F;
     text-decoration: underline;
 }
+
+/* position */
+/* 박스에 포지션을 주면 부모(상위) 요소의 기준에서 배치된다 */
+
+.box_wrap {
+    width:1000px;
+    height:500px;
+    border:5px solid #000;
+    background:#FFF;
+    position: relative;
+}
+
+.box_wrap .box1 {
+    width:300px; height:100px; background:red;
+    position:absolute; left:0; top:0;
+    z-index:100;
+}
+
+.box_wrap .box2 {
+    width:300px; height:100px; background:yellow;
+    position:absolute; left:50px; top:30px;
+}
+
+.box_wrap .box3 {
+    width:300px; height:100px; background:green;
+    position:absolute; left:100px; top:60px;
+    z-index:200;
+}
+
+.box_wrap .box4 {
+    width:300px; height:100px; background:blue;
+    position:absolute; left:150px; top:90px;   
+}
+
+/*
+- absolute만 적용 : 한 화면을 기준으로 해서 스크롤을 내린다고 박스도 따라서 내려가거나 하지 않는다
+- 자식 요소에 position을 적용할거면 부모 요소의 박스에 크기를 적용해야하며, 부모 요소에는 relative를 적용한다.
+*/
+
+/* header 영역 레이아웃 */
+
+#header_wrap {
+    width: 1000px;
+    height:140px;
+    border:3px solid #000;
+    margin:100px auto;
+    background:#FFF;
+    position:relative;
+}
+
+#header_wrap #logo {
+    width:150px;
+    height:80px;
+    background:#f15151;
+    color:#FFF;
+    font-weight:700;
+    text-align:center;
+    line-height:80px;
+    position:absolute;
+    left:0; top:15px; 
+}
+
+#header_wrap #unit {
+    width:200px;
+    height:40px;
+    background:#eed70e;
+    color:#FFF;
+    font-weight:700;
+    text-align:center;
+    line-height:40px;
+    position:absolute;
+    right:0; top:0;
+}
+
+#header_wrap #gnb {
+    width:800px;
+    height:80px;
+    background:#7ea9e2;
+    color:#FFF;
+    font-weight:700;
+    text-align:center;
+    line-height:80px;
+    position:absolute;
+    right:0; bottom:0;
+}
+
+/* flexbox */
+#flex_box {
+    width:1280px;
+    height:560px;
+    margin:100px auto;
+    background:#FFF;
+    display:flex;
+    justify-content: space-between;
+    /*
+    space-between : 양끝 기준으로 여백
+    space-around : 양끝에도 여백
+    */
+}
+
+#flex_box .box1 {
+    width:420px;
+    height:560px;
+    background:#CCC;
+    /* background-image:url('https://www.lotteresort.com/static/upload/images/20230609/50dde60d-2870-45a0-b4d4-8f89fa21fedb.jpg'); */
+}
+
+#flex_box .box2 {
+    width:420px;
+    height:560px;
+    background:#CCC;
+    /* background-image:url('https://www.lotteresort.com/static/upload/images/20230623/253e451a-b563-4757-b4cf-5f5e06c453e8.jpg'); */
+}
+
+#flex_box .box3 {
+    width:420px;
+    height:560px;
+    background:#CCC;
+    /* background-image:url('https://www.lotteresort.com/static/upload/images/20220615/b2fed854-1ba8-40a8-b3d7-66c50c2511e7.png'); */
+}
