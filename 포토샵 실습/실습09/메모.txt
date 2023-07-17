@@ -1,0 +1,16 @@
+1. 일러스트 이미지 트레이스
+- A4 가로 사이즈 오픈
+- Place로 사진 가져오기
+- Place한 파일을 선택한 채로 컨트롤 패널의 Image Trace
+(Object > Image Trace)
+- Image Trace를 먹인다음 Expand를 하면 면으로 적용된다
+
+- 원하는 색으로 바꾸고 싶을 때, 그룹 셀렉션으로 하나를 고르고
+Select > Same > Fill Color 선택 후 원하는 색으로
+
+- 다른 사진도 실습해보기
+
+2. 사각형
+- 색과 선을 다양하게 한 사각형 여러 개 만들기 > 그룹
+- Select > Same > 여러 가지의 것들을 체크해본다
+
