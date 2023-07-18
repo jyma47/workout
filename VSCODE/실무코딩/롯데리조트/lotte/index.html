@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롯데리조트</title>
+    <!-- 외부 css -->
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- slick css -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.your-class').slick({
+                // setting- name: setting - value
+                autoplay:true
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div id="header_wrap">
+        <header id="header">
+            <div class="logo">로고</div>
+            <div class="gnb">GNB</div>
+            <div class="util">유틸</div>
+            <div class="btn">버튼</div>
+        </header>
+    </div>
+    <div id="container">
+        <div id="main_visual">
+            <div class="your-class">
+                <div><img src="img/pc_main_banner_01.png" alt="비주얼이미지01"></div>
+                <div><img src="img/pc_main_banner_03.png" alt="비주얼이미지02"></div>
+                <div><img src="img/pc_main_banner_04.png" alt="비주얼이미지03"></div>
+            </div>
+        </div>
+        <div id="event">이벤트</div>
+        <div id="package">패키지</div>
+        <div id="travelbrary">
+            <div id="travelbrary_inner">트래브러리</div>
+        </div>
+        <div id="membership">멤버십</div>
+        <div id="resort">리조트</div>
+        <div id="news">뉴스</div>
+        <div id="branch">
+            <div id="branch_inner">지사안내</div>
+        </div>
+    </div>
+    <div id="footer_wrap">
+        <footer id="footer">하단영역</footer>
+    </div>
+</body>
+
+</html>
