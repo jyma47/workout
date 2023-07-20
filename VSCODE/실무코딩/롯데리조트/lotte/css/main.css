@@ -144,8 +144,54 @@ a {
     width:1280px;
     height:850px;
     margin:0 auto;
-    background:#f0f0ff;
 }
+
+#container #event .top {
+    display:flex;
+    justify-content: space-between;
+}
+
+#container #event .top .title {
+    padding-top:100px;
+    font-size:46px;
+    margin-bottom:30px;
+    color:#333;
+}
+#container #event .top .category {
+    padding-top:120px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#container #event .top .category li {
+    margin-left:20px;
+    position:relative;
+    height:30px;
+    padding:0 10px;
+}
+
+#container #event .top .category li a {
+    font-size:16px;
+    color:#888;
+}
+
+#container #event .top .category li a:hover {
+    color:#333;
+}
+
+#container #event .top .category li:first-child:after {
+    content:"";
+    display:block;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:2px;
+    background:#da291c;
+}
+
+#container #event .contents {}
+
 
 #container #package {
     width:1280px;
@@ -172,11 +218,135 @@ a {
     background-size:100%;
 }
 
+#travelbrary_inner .txt1 {
+    font-size:34px;
+    font-weight:bold;
+    color:#FFF;
+    padding-top:170px;
+    margin-bottom:90px;
+    text-align: center;
+}
+
+#travelbrary_inner .txt1 strong {
+    font-weight:400;
+}
+
+#travelbrary_inner .txt2 {
+    color:#FFF;
+    text-align: center;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:35px;
+}
+#travelbrary_inner .title {
+    font-family: 'DM Serif Display', serif;
+    font-size:120px;
+    text-align: center;
+    color:#CCC;
+    background-image:url(../img/txt_img02.png);
+    background-repeat:no-repeat;
+    margin:0 auto;
+    margin-bottom:22px;
+    width: 623px;
+    min-height: 106px;
+}
+#travelbrary_inner .txt3 {
+    font-size:18px;
+    text-align:center;
+    color:#FFF;
+    line-height:1.7;
+    font-weight:300;
+    letter-spacing: -1.5px;
+}
+
 #container #membership {
     width:1280px;
     height:650px;
     margin:0 auto;
-    background:#f9cccc;
+}
+
+#membership .title {
+    font-size:46px;
+    padding-top:100px;
+    margin-bottom:45px;
+    color:#333;
+}
+#membership .contents {
+    width:100%;
+    border:1px solid #CCC;
+    box-sizing:border-box;
+    height:390px;
+    margin:0 auto;
+    padding:70px 0;
+}
+#membership .contents .col3 {
+    margin:0 auto;
+    display:flex;
+    width:1000px;
+    justify-content: space-between;
+}
+
+#membership .contents .col3 li {
+    display:flex;
+    justify-content: space-between;
+    width:330px;
+    height:70px;
+    margin-right:20px;
+}
+
+#membership .contents .col3 li .img {
+    width:70px;
+    margin-right:20px;
+}
+
+#membership .contents .col3 li .img img {
+    width:100%;
+}
+
+#membership .contents .col3 li .txt {
+    width:230px;
+    padding-top:15px;
+}
+
+#membership .contents .col3 li .txt h3 {
+    font-size:18px;
+    font-weight:bold;
+    color:#000;
+    line-height:30px;
+}
+
+#membership .contents .col3 li .txt p {
+    font-size:16px;
+    color:#333;
+}
+
+
+#membership > .contents > .txt {
+    margin-top:55px;
+    margin-bottom:40px;
+    text-align:center;
+    font-size:18px;
+    color:#333;
+}
+
+#membership .contents .view {
+    width:404px;
+    height:60px;
+    padding:0 20px;
+    border:1px solid #666;
+    background: #666;
+    margin:0 auto;
+    box-sizing:border-box;
+    color: #fff;
+    font-size:18px;
+    font-weight:bold;
+    text-align:center;
+    line-height:60px;
+} 
+
+#membership .contents .view:hover {
+    background:#543d37;
+    cursor:pointer;
 }
 
 #container #resort {
