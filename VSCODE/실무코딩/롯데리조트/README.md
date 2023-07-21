@@ -10,7 +10,7 @@
 
 + 이미지 소스 만들기
   + 영역을 선택하기
-  + Ctrl + Shift + C
-  + Ctrl + N
-  + Ctrl + V
-  + Ctrl + Shift + Alt + S
+  + Ctrl + Shift + C (합쳐진 채로 복사)
+  + Ctrl + N (새 파일 열기)
+  + Ctrl + V (붙여넣기)
+  + Ctrl + Shift + Alt + S (Export > Save for Web)
