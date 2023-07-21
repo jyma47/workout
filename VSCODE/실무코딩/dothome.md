@@ -16,3 +16,11 @@
 + 알드라이브 다운로드 후 설치
 + 알드라이브 접속하기 (https://github.com/jyma47/workout/blob/main/VSCODE/%EC%8B%A4%EB%AC%B4%EC%BD%94%EB%94%A9/%EC%95%8C%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C%20%EC%A0%91%EC%86%8D%ED%95%98%EA%B8%B0.png)
 + 내용을 저장하려면 루트폴더 밑의 html 폴더 안에 저장하기
+
+-------
+0. index.html (직접 꾸미는 대문화면)
+1. 롯데리조트 (lotte/index.html)
+2. 웹표준코딩2
+3. 반응형웹
+4. 카페24
+5. 포트폴리오
