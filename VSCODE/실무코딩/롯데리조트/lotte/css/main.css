@@ -400,7 +400,70 @@ a {
     max-width:1920px;
     height:730px;
     margin:0 auto;
-    background:#add8e6;
+}
+
+#container #resort .top {
+    width:1280px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+#container #resort .top .title {
+    padding-top:100px;
+    font-size:46px;
+    margin-bottom:30px;
+    color:#333;
+}
+#container #resort .top .category {
+    padding-top:120px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#container #resort .top .category li {
+    margin-left:20px;
+    position:relative;
+    height:30px;
+    padding:0 10px;
+}
+
+#container #resort .top .category li a {
+    font-size:16px;
+    color:#888;
+}
+
+#container #resort .top .category li a:hover {
+    color:#333;
+}
+
+#container #resort .top .category li:first-child:after {
+    content:"";
+    display:block;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:2px;
+    background:#da291c;
+}
+
+#container #resort .contents {
+    display:flex;
+    /* justify-content: space-between; */
+}
+
+#container #resort .contents .left {
+    width:50%;
+    background: #F3F3F3;
+}
+
+#container #resort .contents .right {
+    width:50%;
+}
+
+#container #resort .contents .right img {
+
 }
 
 #container #news {
