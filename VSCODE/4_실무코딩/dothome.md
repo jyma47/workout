@@ -3,7 +3,7 @@
 + 디스크 200MB (psd, ai 업로드 X) / 트래픽(일) 300MB
 + 3개월마다 연장하기
   
-  http://jyma47.dothome.co.kr/
+  http://xecapr01.dothome.co.kr
 ------
 
 + FTP 접속 후 업로드 파일 및 폴더는 html(루트 폴더) 안에 넣어주시기 바랍니다.
