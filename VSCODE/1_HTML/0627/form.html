@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼 태그 실습</title>
+    <style>
+        /* css를 html 문서 내부에 작성 */
+        .reservation {
+            width:1200px;
+            height:800px;
+            border:10px solid #000;
+            margin:0 auto;
+            padding:30px;
+        }
+
+        ul {
+            line-height:50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 주요 input 태그 속성 : text, password, radio, checkbox, email, date, submit, reset -->
+    <div class="reservation">
+        <h1>예약하기</h1>
+        <hr>
+        <h3>기본정보</h3>
+        <ul>
+            <li>신청자 : <input id="name" name="name" type="text" maxlength="4" placeholder="실명입력"> </li>
+            <li>비번호 : <input id="pw" name="pw" type="password" maxlength="4" placeholder="숫자4개"> </li>
+            <li>연락처 :
+                <input id="mo1" name="mo1" type="text" maxlength="3" size="5"> - 
+                <input id="mo2" name="mo2" type="text" maxlength="4" size="7"> - 
+                <input id="mo3" name="mo3" type="text" maxlength="4" size="7">
+            </li>
+            <li>이메일 : 
+                <input id="email" name="email" type="text"> @ 
+                <select id="site" name="site">
+                    <option value="">선택하기</option>
+                    <option value="naver.com">naver.com</option>
+                    <option value="gmail.com">gmail.com</option>
+                    <option value="hanmail.net">hanmail.net</option>
+                </select>
+            </li>
+        </ul>
+        <hr>
+        <h3>예약정보</h3>
+        <ul>
+            <li>투숙날짜 : <input id="date" name="date" type="date"> </li>
+            <li>객실선택 : 
+                <!-- radio의 name은 같은 그룹끼리 동일하게 쓴다 -->
+                <input id="room1" name="userRoom" type="radio" value="r1"> 싱글베드
+                <input id="room2" name="userRoom" type="radio" value="r2"> 더블베드
+                <input id="room3" name="userRoom" type="radio" value="r3"> 트윈베드
+            </li>
+            <li>옵션선택 : 
+                <!-- checkbox의 name은 같은 그룹끼리 동일하게 쓴다 -->
+                <input id="op1" name="option" type="checkbox" value="o1"> 조식
+                <input id="op2" name="option" type="checkbox" value="o2"> 바비큐
+                <input id="op3" name="option" type="checkbox" value="o3"> 픽업
+                <input id="op4" name="option" type="checkbox" value="o4"> 수영장
+            </li>
+        </ul>
+        <hr>
+        <h3>남기고 싶은 말</h3>
+        <textarea id="talk" name="talk" cols="150" rows="5"></textarea>
+        <hr>
+        <input id="submit" name="submit" type="submit" value="예약하기">
+        <input id="reset" name="reset" type="reset" value="다시쓰기">
+    </div>
+</body>
+</html>

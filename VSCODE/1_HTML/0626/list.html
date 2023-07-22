@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리스트 태그 실습</title>
+    <style>
+        /* css를 작성한다 */
+        .nav {
+            width:750px;
+            height:50px;
+            background:#fcc;
+            display:flex;
+            list-style:none;
+            margin:0;
+            padding:0;
+            justify-content: space-around;
+            line-height:50px;
+        }
+
+        a {
+            text-decoration:none;
+            color:#000;
+        }
+
+        a:hover {
+            color:#00f;
+            font-weight:bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>비서열형 리스트 (비순차적)</h1>
+    <h3>내가 좋아하는 음식 BEST5</h3>
+    <ul>
+        <li>닭갈비</li>
+        <li>생선초밥</li>
+        <li>치킨</li>
+        <li>팟타이</li>
+        <li>푸딩</li>
+    </ul>
+    <hr>
+    <h1>서열형 리스트 (순차적)</h1>
+    <h3>가장 가고 싶은 여행지 BEST5</h3>
+    <ol>
+        <li>오키나와</li>
+        <li>하와이</li>
+        <li>뉴욕</li>
+        <li>파리</li>
+        <li>홍콩</li>
+    </ol>
+    <hr>
+    <h1>정의형 리스트 (사전)</h1>
+    <h3>웹 표준 언어</h3>
+    <dl>
+        <dt>html</dt>
+        <dd>
+            웹 구조를 만들고 콘텐츠를 구성한다 <br>
+            DOM 구조인 트리 형태로 작성한다
+        </dd>
+        <dt>css</dt>
+        <dd>
+            웹 디자인을 담당하고, HTML에 CSS를 입힌다 <br>
+            선택자와 선언문 구조로 구성한다 <br>
+            선택자는 태그 선택자, 아이디 선택자, 클래스 선택자가 있다
+        </dd>
+        <dt>javascript</dt>
+        <dd>
+            웹 문서에서 움직임을 담당한다 <br>
+            객체 지향 언어로 움직임의 대상을 함수로 제어할 수 있다
+        </dd>
+    </dl>
+    <hr>
+    <h1>네비게이션 메뉴</h1>
+    <ul class="nav">
+        <li>
+            <a href="#">회사소개</a>
+        </li>
+        <li>
+            <a href="#">제품소개</a>
+        </li>
+        <li>
+            <a href="#">연구소소개</a>
+        </li>
+        <li>
+            <a href="#">온라인몰</a>
+        </li>
+        <li>
+            <a href="#">커뮤니티</a>
+        </li>
+    </ul>
+</body>
+
+</html>

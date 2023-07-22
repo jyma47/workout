@@ -1,8 +1,0 @@
-HTML : 태그(요소) / CSS : 속성
-
-조상 후손 / 부모 자식 형제 :: 나를 기준
-DOM - 트리 형태 - 노드의 확장
-
-주석 : Ctrl + /
-
-href : hypertext reference
