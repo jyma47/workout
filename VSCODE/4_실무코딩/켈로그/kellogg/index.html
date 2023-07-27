@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>켈로그</title>
+    <!-- 웹폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- 외부 css -->
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <!-- (2) slick css link -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <!-- (3) slick javascript add -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <!-- (4) slick jquery call -->
+    <script>
+        $(document).ready(function () {
+
+            // visual animation
+            $('.your-class').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true,
+                dots: false,
+                fade: true
+            });
+
+            // event
+            $('.multiple-items').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true,
+                dots: true
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <div id="header_wrap">
+        <header id="header">
+            <!-- 로고 -->
+            <div class="logo">
+                <a href="index.html"><img src="img/logo_white.png" alt="롯데리조트"></a>
+            </div>
+
+            <!-- 글로벌 내비게이션 -->
+            <div class="gnb">
+                <ul>
+                    <li><a href="#">Our Food</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Health & Nutrition</a></li>
+                    <li><a href="#">Better Days</a></li>
+                    <li><a href="#">Who we are</a></li>
+                </ul>
+            </div>
+
+            <!-- 바로가기 -->
+            <div class="util">
+                <ul>
+                    <li><a href="https://www.youtube.com/channel/UC0Ab7cfFW5CZ6AUbQvkChVw"><img
+                                src="img/icon_out_youtube.png" alt="유튜브"></a></li>
+                    <li><a href="https://www.instagram.com/kelloggs_korea/"><img src="img/icon_out_instagram.png"
+                                alt="인스타그램"></a></li>
+                    <li><a href="https://blog.naver.com/kelloggs_kr"><img src="img/icon_out_naver_blog.png"
+                                alt="블로그"></a></li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+    <!-- 컨테이너 -->
+    <div id="container">
+
+        <!-- 메인 비주얼 -->
+        <div id="main_visual">
+            <!-- (1) slick slide tag -->
+            <div class="your-class">
+                <div>
+                    <img src="img/desktop_main1.png" alt="메인배너1">
+                    <div class="hashtag main1"></div>
+                </div>
+                <div>
+                    <img src="img/desktop_main2.png" alt="메인배너2">
+                    <div class="hashtag main2"></div>
+                </div>
+                <div>
+                    <img src="img/desktop_main3.png" alt="메인배너3">
+                    <div class="hashtag main3"></div>
+                </div>
+                <div>
+                    <img src="img/desktop_main4.png" alt="메인배너4">
+                    <div class="hashtag main4"></div>
+                </div>
+                <div>
+                    <img src="img/desktop_main5.png" alt="메인배너5">
+                    <div class="hashtag main5"></div>
+                </div>
+                <div>
+                    <img src="img/desktop_main0.png" alt="메인배너6">
+                    <div class="txt">
+                        <h2> Kellogg’s Online Shop</h2>
+                        <p>맛과 영양을 고루 갖춘 켈로그 제품을 온라인에서 빠르게 주문하고 받아보세요!</p>
+                        <a class="link" href="#">
+                            <span>Kellogg’s shop 보기</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 브랜드 소개 -->
+        <div id="brand">
+            <div class="top">
+                <h1 class="title">켈로그의 다양한 브랜드를 만나보세요.</h1>
+            </div>
+            <div class="contents">
+                <ul>
+                    <li><img src="img/img_brands_cereals_classic.png" alt="menu01"></li>
+                    <li><img src="img/img_brands_cereals_choco.png" alt="menu02"></li>
+                    <li><img src="img/img_brands_cereals_granola.png" alt="menu03"></li>
+                    <li><img src="img/img_brands_cereals_protein.png" alt="menu04"></li>
+                    <li><img src="img/img_brands_cereals_kelloggbar.png" alt="menu05"></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 패키지 프로모션 -->
+        <div id="package">
+            <div class="top">
+                <h1 class="title">패키지ㆍ프로모션</h1>
+                <ul class="category">
+                    <li><a href="#">전체</a></li>
+                    <li><a href="#">롯데리조트속초</a></li>
+                    <li><a href="#">롯데리조트부여</a></li>
+                    <li><a href="#">제주 아트빌라스</a></li>
+                </ul>
+            </div>
+            <div class="contents">
+                <div class="multiple-items">
+                    <div><img src="img/package01.png" alt="package01"></div>
+                    <div><img src="img/package02.png" alt="package02"></div>
+                    <div><img src="img/package03.png" alt="package03"></div>
+                    <div><img src="img/package04.png" alt="package04"></div>
+                    <div><img src="img/package05.png" alt="package05"></div>
+                    <div><img src="img/package06.png" alt="package06"></div>
+                    <div><img src="img/package07.png" alt="package07"></div>
+                    <div><img src="img/package08.png" alt="package08"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 트래브러리 -->
+        <div id="travelbrary">
+            <div id="travelbrary_inner">
+                <h2 class="txt1">
+                    <strong>“</strong>
+                    새로운 여행의 첫 페이지를 열다
+                    <strong>”</strong>
+                </h2>
+                <p class="txt2">롯데리조트 웹매거진 트래브러리</p>
+                <div class="title"></div>
+                <p class="txt3">롯데리조트는 좋은 휴식에 대해 심도 있게 고민하고 로컬 문화를 깊숙이 들여다봅니다<br>
+                    롯데리조트가 품고 있는 여행의 모든 이야기를 트래브러리에서 꺼내보세요</p>
+            </div>
+        </div>
+
+        <!-- 통합멤버십 -->
+        <div id="membership">
+            <h1 class="title">롯데리조트 통합멤버십</h1>
+            <div class="contents">
+                <ul class="col3">
+                    <li>
+                        <div class="img"><img src="img/ico_main_member01.png" alt="icon01"></div>
+                        <div class="txt">
+                            <h3>통합멤버십 전용상품</h3>
+                            <p>회원을 위한 전용상품과 이벤트 </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img"><img src="img/ico_main_member02.png" alt="icon02"></div>
+                        <div class="txt">
+                            <h3>리조트 · 골프 특가 혜택</h3>
+                            <p>롯데리조트 온라인 최저가</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img"><img src="img/ico_main_member03.png" alt="icon03"></div>
+                        <div class="txt">
+                            <h3>포인트 (L.POINT)</h3>
+                            <p>L.point 0.3% 적립</p>
+                        </div>
+                    </li>
+                </ul>
+                <p class="txt">L.POINT를 통해
+                    <span style="font-weight:bold;">롯데리조트 통합멤버십</span>에 가입하고,
+                    <span style="font-weight:bold;">여행·골프·레저</span>를 하나의 아이디로 누리세요!
+                </p>
+                <div class="view">롯데리조트 통합멤버십 자세히보기</div>
+            </div>
+        </div>
+
+        <!-- 롯데리조트 -->
+        <div id="resort">
+            <div class="top">
+                <h1 class="title">LOTTE RESORT</h1>
+                <ul class="category">
+                    <li><a href="#">전체</a></li>
+                    <li><a href="#">롯데리조트속초</a></li>
+                    <li><a href="#">롯데리조트부여</a></li>
+                    <li><a href="#">제주 아트빌라스</a></li>
+                    <li><a href="#">롯데아라이리조트</a></li>
+                </ul>
+            </div>
+            <div class="contents">
+                <div class="left">
+                    <div class="left_box">
+                        <h1 class="title">ARTVILLAS</h1>
+                        <p class="txt1">환상적인 비일상으로의 초대</p>
+                        <p class="txt2">돌멩이 하나, 바람 한 줄기도 예술이 되는 천혜의 풍경
+                            자연이 만든 마스터피스에 <br> 완성한 공간의 걸작
+                            진정한 럭셔리는 자연과 예술에 있습니다.</p>
+                        <p class="txt3"><a href="#">자세히 보기</a></p>
+                        <div class="btn">
+                            <a href="#"><img src="img/arrow_prev.png" alt="arrow_prev"></a>
+                            <a href="#"><img src="img/arrow_next.png" alt="arrow_next"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="img/resort_artvillas.jpg" alt="resort">
+                </div>
+            </div>
+        </div>
+
+        <!-- 리조트 뉴스 -->
+        <div id="news">
+            <div class="top">
+                <h1 class="title">RESORT NEWS</h1>
+            </div>
+            <ul class="list">
+                <li>
+                    <span>제주 아트빌라스</span>
+                    <span>제주 아트코델리아 조식 요금인상 안내</span>
+                    <span>2023.03.14</span>
+                </li>
+                <li>
+                    <span>롯데리조트부여</span>
+                    <span>롯데리조트부여 본디마슬 조식뷔페 요금인상 안내</span>
+                    <span>2023.01.31</span>
+                </li>
+                <li>
+                    <span>롯데리조트</span>
+                    <span>2023년 Travel;Magazine Monthly Wallpaper</span>
+                    <span>2022.12.22</span>
+                </li>
+                <li>
+                    <span>롯데리조트</span>
+                    <span>개인정보처리방침 변경 안내</span>
+                    <span>2022.11.03</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 지사안내 -->
+        <div id="branch">
+            <div id="branch_inner">
+                <!-- 롯데리조트 -->
+                <div class="branch1">
+                    <h1 class="title">LOTTE RESORT</h1>
+                    <ul class="cols3">
+                        <li>
+                            <div class="picture">
+                                <img src="img/static_img01.jpg" alt="branch_img01">
+                            </div>
+                            <h3 class="category">SOKCHO</h3>
+                            <p class="text">동해와 설악이 만난 그곳에, 속초</p>
+                        </li>
+                        <li>
+                            <div class="picture">
+                                <img src="img/static_img02.jpg" alt="branch_img02">
+                            </div>
+                            <h3 class="category">BUYEO</h3>
+                            <p class="text">백제의 신비로운 유적지, 부여</p>
+                        </li>
+                        <li>
+                            <div class="picture">
+                                <img src="img/static_img03.jpg" alt="branch_img03">
+                            </div>
+                            <h3 class="category">JEJU ARTVILLAS</h3>
+                            <p class="text">자연, 건축 그리고 휴식, 제주</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 롯데스카이힐 -->
+                <div class="branch2">
+                    <h1 class="title">LOTTE SKYHILL CC</h1>
+                    <ul class="cols3">
+                        <li>
+                            <div class="picture">
+                                <img src="img/static_img04.jpg" alt="branch_img04">
+                            </div>
+                            <h3 class="category">JEJU</h3>
+                            <p class="text">한라산 숲 속 '힐링'코스 제주</p>
+                        </li>
+                        <li>
+                            <div class="picture">
+                                <img src="img/static_img05.jpg" alt="branch_img05">
+                            </div>
+                            <h3 class="category">BUYEO</h3>
+                            <p class="text">백제의 역사를 마주한 코스, 부여</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 푸터 -->
+    <div id="footer_wrap">
+        <footer id="footer"></footer>
+    </div>
+</body>
+
+</html>
