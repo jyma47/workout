@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>켈로그</title>
+    <!-- 웹폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- 외부 css -->
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <!-- (2) slick css link -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <!-- (3) slick javascript add -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <!-- (4) slick jquery call -->
+    <script>
+        $(document).ready(function () {
+
+            // visual animation
+            $('.your-class').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true,
+                dots: false,
+                fade: true
+            });
+
+            // event
+            $('.multiple-items').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true,
+                dots: true
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <div id="header_wrap">
+        <header id="header">
+            <!-- 로고 -->
+            <div class="logo">
+                <a href="index.html"><img src="img/logo_white.png" alt="롯데리조트"></a>
+            </div>
+
+            <!-- 글로벌 내비게이션 -->
+            <div class="gnb">
+                <ul>
+                    <li><a href="#">Our Food</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Health & Nutrition</a></li>
+                    <li><a href="#">Better Days</a></li>
+                    <li><a href="#">Who we are</a></li>
+                </ul>
+            </div>
+
+            <!-- 바로가기 -->
+            <div class="util">
+                <ul>
+                    <li><a href="https://www.youtube.com/channel/UC0Ab7cfFW5CZ6AUbQvkChVw" target="_blank"><img
+                                src="img/icon_out_youtube.png" alt="유튜브"></a></li>
+                    <li><a href="https://www.instagram.com/kelloggs_korea/" target="_blank"></a><img
+                            src="img/icon_out_instagram.png" alt="인스타그램"></a></li>
+                    <li><a href="https://blog.naver.com/kelloggs_kr" target="_blank"></a><img
+                            src="img/icon_out_naver_blog.png" alt="블로그"></a></li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+    <!-- 컨테이너 -->
+    <div id="container">
+
+        <!-- 메인 비주얼 -->
+        <div id="main_visual">
+            <!-- (1) slick slide tag -->
+            <div class="your-class">
+                <div>
+                    <img src="img/desktop_main1.png" alt="메인배너1">
+                    <div class="hashtag main1"></div>
+                </div>
+                <div>
+                    <img src="img/desktop_main2.png" alt="메인배너2">
+                    <div class="hashtag main2"></div>
+                </div>
+                <div>
+                    <img src="img/desktop_main3.png" alt="메인배너3">
+                    <div class="hashtag main3"></div>
+                </div>
+                <div>
+                    <img src="img/desktop_main4.png" alt="메인배너4">
+                    <div class="hashtag main4"></div>
+                </div>
+                <div>
+                    <img src="img/desktop_main5.png" alt="메인배너5">
+                    <div class="hashtag main5"></div>
+                </div>
+                <div>
+                    <img src="img/desktop_main0.png" alt="메인배너6">
+                    <div class="txt">
+                        <h2> Kellogg’s Online Shop</h2>
+                        <p>맛과 영양을 고루 갖춘 켈로그 제품을 온라인에서 빠르게 주문하고 받아보세요!</p>
+                        <a class="link" href="#">
+                            <span>Kellogg’s shop 보기</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 브랜드 소개 -->
+        <div id="brand">
+            <div class="brand_inner">
+                <h1 class="title">켈로그의 다양한 브랜드를 만나보세요.</h1>
+                <div class="contents">
+                    <ul class="list01">
+                        <li>
+                            <img src="img/img_brands_cereals_classic.png" alt="클래식시리얼">
+                            <h3>클래식시리얼</h3>
+                        </li>
+                        <li>
+                            <img src="img/img_brands_cereals_choco.png" alt="초코시리얼">
+                            <h3>초코시리얼</h3>
+                        </li>
+                        <li>
+                            <img src="img/img_brands_cereals_granola.png" alt="그래놀라">
+                            <h3>그래놀라</h3>
+                        </li>
+                    </ul>
+                    <ul class="list02">
+                        <li>
+                            <img src="img/img_brands_cereals_protein.png" alt="프로틴">
+                            <h3>프로틴</h3>
+                        </li>
+                        <li>
+                            <img src="img/img_brands_cereals_kelloggbar.png" alt="켈로그바">
+                            <h3>켈로그바</h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Better Days 캠페인 -->
+        <div id="campaign">
+            <div class="left">
+                <img src="img/img_better-days_title.png" alt="BetterDays">
+            </div>
+            <div class="right">
+                <div class="txt">
+                    <p>더 나은 내일을 만들기 위해 110여년 동안 기울여온 켈로그의 노력</p>
+                    <div class="btn">
+                        <a href="#">
+                            <span>더 알아보기</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 주력상품들 -->
+        <div id="menu">
+            <h1 class="title">켈로그 주력 상품들</h1>
+            <div class="contents">
+                <a href="#">더보기</a>
+                <ul class="list">
+                    <li>
+                        <div class="picture">
+                            <img src="img/img_product_cf.png" alt="콘푸로스트">
+                        </div>
+                        <h2 class="name">콘푸로스트</h2>
+                        <p class="txt">콘푸로스트는 자연에서 온 곡물 가공을 최소화하여 건강하게 구웠습니다</p>
+                    </li>
+                    <li>
+                        <div class="picture">
+                            <img src="img/img_product_cco.png" alt="첵스초코">
+                        </div>
+                        <h2 class="name">첵스초코</h2>
+                        <p class="txt">첵스초코는 우유와 만나면 진한 초코 우유로 변하는 초코 시리얼입니다</p>
+                    </li>
+                    <li>
+                        <div class="picture">
+                            <img src="img/img_product_rg.png" alt="리얼그래놀라">
+                        </div>
+                        <h2 class="name">리얼 그래놀라</h2>
+                        <p class="txt">리얼 그래놀라는 5가지 진짜 과일과 건강한 그래놀라를 듬뿍 담았습니다</p>
+                    </li>
+                    <li>
+                        <div class="picture">
+                            <img src="img/img_product_protein_granola.png" alt="프로틴그래놀라">
+                        </div>
+                        <h2 class="name">프로틴 그래놀라</h2>
+                        <p class="txt">그래놀라에 100% 국내산 검정약콩으로 고소함과 단백질을 더했습니다</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 레시피 - amazing kreations -->
+        <div id="recipe">
+            <div class="recipe_inner">
+                <div class="logo">
+                    <img src="img/img_recipes_title.png" alt="레시피타이틀">
+                </div>
+                <div class="contents">
+                    <a href="#">더보기</a>
+                    <ul class="list">
+                        <li>
+                            <div class="picture">
+                                <img src="img/img_recipes_ccgb.png" alt="첵스초코 유령 브라우니">
+                            </div>
+                            <h2 class="title">첵스초코 유령 브라우니</h2>
+                        </li>
+                        <li>
+                            <div class="picture">
+                                <img src="img/img_recipes_gm.png" alt="그릭모모">
+                            </div>
+                            <h2 class="title">그릭모모</h2>
+                        </li>
+                        <li>
+                            <div class="picture">
+                                <img src="img/img_recipes_edpr.png" alt="에너지바K 곶감말이">
+                            </div>
+                            <h2 class="title">에너지바K 곶감말이</h2>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SNS 광고 홍보 -->
+        <div id="sns">
+            <ul class="group">
+                <li>
+                    <ul class="instagram">
+                        <li>
+                            <a href="#">
+                                <img src="img/img_Instagram_1.png" alt="insta01">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/img_Instagram_2.png" alt="insta02">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/img_Instagram_3.jpg" alt="insta03">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/img_Instagram_4.png" alt="insta04">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/img_Instagram_5.png" alt="insta05">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/img_Instagram_6.jpg" alt="insta06">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <img src="img/popup_img.png" alt="팝업이미지">
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/img_youtube.jpg" alt="유튜브이미지">
+                    </a>
+                </li>
+                <li>
+                    <ul class="blog">
+                        <li>
+                            <a href="#">
+                                <img src="img/img_naver_blog_1.png" alt="블로그1">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/img_naver_blog_2.png" alt="블로그2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/img_naver_blog_3.png" alt="블로그3">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/img_naver_blog_4.png" alt="블로그4">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 정보 -->
+        <div id="info">
+            <div class="info_left">왼쪽</div>
+            <div class="info_right">오른쪽</div>
+        </div>
+    </div>
+
+
+
+    <!-- 푸터 -->
+    <div id="footer_wrap">
+        <footer id="footer"></footer>
+    </div>
+
+    <!-- 쇼핑위젯 -->
+    <div class="widget">
+        <a href="https://pages.coupang.com/f/s2148" target="_blank">
+            <img src="img/icon_shopnow.svg" alt="쇼핑위젯">
+        </a>
+    </div>
+</body>
+
+</html>

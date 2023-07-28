@@ -1,0 +1,587 @@
+@charset 'UTF-8';
+
+body {
+    background: #FFF;
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* header */
+#header_wrap {
+    width: 100%;
+    height: 113px;
+    position: fixed;
+    z-index: 9999;
+    background-color: #ba0c2f;
+}
+
+#header_wrap #header {
+    width: 1920px;
+    height: 184px;
+    margin: 0 auto;
+    background-image: url(../img/bg_header_1920.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+    position: relative;
+}
+
+#header_wrap #header .logo {
+    width: 156px;
+    height: 49px;
+    position: absolute;
+    left: 100px;
+    top: 25px;
+}
+
+#header_wrap #header .logo img {
+    width: 100%;
+}
+
+#header_wrap #header .gnb {
+    width: 730px;
+    height: 34px;
+    position: absolute;
+    left: 415px;
+    top: 35px;
+}
+
+.gnb ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gnb ul li a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 34px;
+}
+
+.gnb ul li a:hover {
+    text-decoration: underline;
+}
+
+
+#header_wrap #header .util {
+    width: 110px;
+    height: 25px;
+    position: absolute;
+    right: 365px;
+    top: 40px;
+}
+
+.util ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#header_wrap #header::after{
+    content:"";
+    display:block;
+    background-image: url(../img/bg_header_wheat_1920.png);
+    width:372px;
+    height:210px;
+    background-size: 100%;
+    background-position: center top;
+    position:absolute;
+    top:-15px;
+    left:-5px;
+}
+
+
+/* contents */
+#container {
+    width: 100%;
+}
+
+/* contents - main visual */
+#container #main_visual {
+    width: 100%;
+    max-width: 1920px;
+    /* height:1090px; */
+    margin: 0 auto;
+    padding-top: 100px;
+    position: relative;
+}
+
+#container #main_visual img {
+    width: 100%;
+}
+
+#container #main_visual .hashtag {
+    display: block;
+    width: 594px;
+    height: 74px;
+    position: absolute;
+}
+
+#container #main_visual .main1 {
+    background-image: url(../img/img_main_visual_txt_white_1180.png);
+    left:50%;
+    top:100px;
+    transform:translateX(-50%);
+}
+
+#container #main_visual .main2 {
+    background-image: url(../img/img_main_visual_txt_white_1180.png);
+    left:150px;
+    top:50%;
+}
+
+#container #main_visual .main3 {
+    background-image: url(../img/img_main_visual_txt_red_1180.png);
+    left:300px;
+    top:150px;
+}
+
+#container #main_visual .main4 {
+    background-image: url(../img/img_main_visual_txt_red_1180.png);
+    left:150px;
+    top:50%;
+}
+
+#container #main_visual .main5 {
+    background-image: url(../img/img_main_visual_txt_red_1180.png);
+    right:250px;
+    top:50%;
+}
+
+#container #main_visual .txt {
+    position: absolute;
+    width: 594px;    
+    top:150px;
+    left:150px;
+}
+
+#container #main_visual .txt h2 {
+    font-family: 'Pacifico', cursive;
+    font-size:95px;
+    line-height: 105px;
+    color: #2b292d;
+    font-weight: bold;
+    margin-bottom:40px;
+}
+#container #main_visual .txt p {
+    font-size: 28px;
+    line-height: 35px;
+    color: #2b292d;
+    font-weight: 500;
+    margin-bottom:40px;
+}
+
+#container #main_visual .link {
+    display: block;
+    width: 400px;
+    height: 90px;
+    line-height: 105px;
+    text-align: center;
+    background: #D20B2F;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+#container #main_visual .link span {
+    display: inline-block;
+    color: #fff;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+/* contents - brand */
+#container #brand {
+    width: 100%;
+    height: 915px;
+    background-image: url(../img/bg_brands_cereals_nuts.png);
+    background-repeat: no-repeat;
+    background-size: 550px;
+    background-position: right bottom;
+}
+
+#container #brand .brand_inner {
+    width:1280px;
+    margin: 0 auto;
+}
+
+.brand_inner .title {
+    padding:110px 0 70px;
+    text-align: center;
+    font-size: 45px;
+    line-height:50px;
+    margin-bottom: 30px;
+    color: #2b2b2b;
+    font-weight:500;
+}
+
+.brand_inner .contents .list01{
+    width:874px;
+    height:265px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:55px;
+}
+
+.brand_inner .contents .list01 li img{
+    width:225px;
+    height:225px;
+}
+.brand_inner .contents .list01 li h3{
+    text-align:center;
+    font-size:24px;
+    font-weight: bold;
+    margin-top:15px;
+
+}
+
+.brand_inner .contents .list02{
+    width:538px;
+    height:265px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    height:50%;
+}
+
+.brand_inner .contents .list02 li img{
+    width:225px;
+    height:225px;
+}
+.brand_inner .contents .list02 li h3{
+    text-align:center;
+    font-size:24px;
+    font-weight: bold;
+    margin-top:15px;
+
+}
+
+/* contents - campaign */
+#container #campaign {
+    width: 100%;
+    height: 552px;
+    margin: 0 auto;
+    background-image:url(../img/bg_better-days.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position:center 60%;
+    display:flex;
+}
+
+#container #campaign .left{
+    width:50%;
+    position:relative;
+}
+
+#container #campaign .left img {
+    width:50%;
+    position:absolute;
+    top:215px;
+    left:370px;
+}
+
+#container #campaign .right{
+    width:50%;
+    position:relative;
+}
+
+#container #campaign .right .txt{
+    width:640px;
+    height:330px;
+    background:rgba(255,255,255,0.7);
+    position:absolute;
+    left:0;
+    top:50%;
+    transform:translateY(-50%);
+    padding:50px;
+    box-sizing: border-box;
+}
+
+#container #campaign .right .txt p {
+    font-size:35px;
+    color: #2B2B2B;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+#container #campaign .right .txt .btn {
+    margin-top: 60px;
+}
+
+#container #campaign .right .txt .btn a {
+    display: inline-block;
+    padding: 14px 40px;
+    background: #BA0C2F;
+    border-radius: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#container #campaign .right .txt .btn a span {
+    font-size:16px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* contents - menu */
+#container #menu {
+    width: 1280px;
+    height: 695px;
+    margin:0 auto;
+
+}
+
+#container #menu .title {
+    padding:110px 0 70px;
+    text-align: center;
+    font-size: 45px;
+    line-height:50px;
+    margin-bottom: 30px;
+    color: #2b2b2b;
+    font-weight:500;
+}
+
+#container #menu .contents{
+    position:relative;
+}
+
+#container #menu .contents a{
+    position:absolute;
+    top:-45px;
+    left:45px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+#container #menu .contents a:hover{
+    text-decoration:underline;
+}
+
+#container #menu .contents .list {
+    width:1180px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    text-align:center;
+}
+
+#container #menu .contents .list li {
+    width:250px;
+}
+
+#container #menu .contents .list .picture {
+    width:250px;
+    height:250px;
+}
+
+#container #menu .contents .list .picture img{
+    width:100%;
+}
+
+#container #menu .contents .list .name{
+    margin : 20px 0 10px;
+    font-size: 24px;;
+    font-weight:bold;
+    color: #2B2B2B;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+
+#container #menu .contents .list .txt{
+    color: #2B2B2B;
+    font-size:16px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+
+/* contents - recipe */
+#container #recipe {
+    width: 100%;
+    height: 435px;
+    margin: 0 auto;
+    background-color: #ba0c2f;
+}
+
+#container #recipe .recipe_inner {
+    width: 1180px;
+    height: 435px;
+    margin:0 auto;
+    display:flex;
+}
+
+#container #recipe .recipe_inner .logo{
+    width:calc(1180px - 810px);
+    position:relative;
+}
+
+#container #recipe .recipe_inner .logo img {
+    width:70%;
+    position:absolute;
+    left:0;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+#container #recipe .recipe_inner .contents{
+    width:810px;
+    color:#FFF;
+}
+
+.recipe_inner .contents a {
+    display:inline-block;
+    padding:70px 0;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.recipe_inner .contents .list{
+    display:flex;
+    justify-content: space-between;
+}
+
+.recipe_inner .contents .list li {
+    width:260px;
+}
+
+.recipe_inner .contents .list .picture {
+    width:260px;
+}
+
+.recipe_inner .contents .list .picture img {
+    width:100%;
+}
+
+.recipe_inner .contents .list .title {
+    margin:30px 0;
+    font-size:22px;
+    font-weight:bold;
+}
+
+
+/* contents - sns */
+#container #sns {
+    width: 1180px;
+    height: 1173px;
+    margin: 0 auto;
+}
+
+
+#container #sns .group {
+    width:100%;
+    height:948px;
+    margin:115px 0 110px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#container #sns .group > li:nth-child(1) {
+    width:690px;
+    height:465px;
+}
+
+.group > li > .instagram {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.group > li > .instagram > li {
+    width:225px;
+    height:225px;
+    margin: 3px 0;
+}
+
+.group > li > .instagram > li > a {
+    display:block;
+}
+
+.group > li > .instagram > li > a > img{
+    width:100%;
+}
+
+
+#container #sns .group > li:nth-child(2) {
+    width:450px;
+    height:465px;
+}
+
+#container #sns .group > li:nth-child(2) img {
+    width:100%;
+}
+
+#container #sns .group > li:nth-child(3) {
+    width:690px;
+    height:465px;
+}
+
+#container #sns .group > li:nth-child(3) img {
+    width:100%;
+}
+
+#container #sns .group > li:nth-child(4) {
+    width:460px;
+    height:465px;
+}
+
+.group > li > .blog {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.group > li > .blog > li {
+    width:225px;
+    height:225px;
+    margin: 3px 0;
+}
+
+.group > li > .blog > li > a {
+    display:block;
+}
+
+.group > li > .blog > li > a > img{
+    width:100%;
+}
+
+
+
+
+/* contents - info */
+#container #info {
+    width: 100%;
+    height: 610px;
+    background-color: #FCF;
+}
+
+
+/* footer */
+#footer_wrap {
+    width: 100%;
+    height: 265px;
+    background-color:#ba0c2f;
+}
+
+/* widget */
+.widget {
+    position:fixed;
+    width:88px;
+    height:88px;
+    z-index: 99;
+    right:50px;
+    bottom:100px;
+   
+}
+
+.widget a {
+    display:block;
+    width:100%;
+}
