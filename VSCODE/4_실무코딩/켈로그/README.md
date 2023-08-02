@@ -3,7 +3,12 @@
 
 ------
 
-# js 작업
+# js 추가
+## 0. 기초작업
+- 화살표 추가
+- html에 서브메뉴 ul과 li 추가
+- css로 서브메뉴 안보이게 작업
+
 ## 1. 원래
 - header에 클래스 없음 header에 removeClass "active"
 - gnb height:80px, overflow:hidden 적용 (서브메뉴 ul( + ul 자식의 li들)은 안보이는 상태)
@@ -21,7 +26,6 @@
     border-left: 2px solid #fff;
     transform: rotate(-135deg);
 }
-
 
 ## 2. hover
 - 메인 메뉴의 li > a에 hover를 하면 header에 addClass "active"
