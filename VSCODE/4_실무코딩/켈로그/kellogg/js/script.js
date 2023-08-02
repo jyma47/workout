@@ -13,4 +13,25 @@ $(document).ready(function () {
     화살표는 위 모양
     
     */
+
+    $(".gnb > ul > li:first-child").mouseover(function(){
+        $("#header").addClass("active");
+        $("#header").css("height","600px")
+        .css("transition","all 2s");
+    }).mouseout(function(){
+        $("#header").removeClass("active");
+        $("#header").css("height","184px")
+        .css("transition","all 0.5s");
+    });
+
+    $(".gnb > ul > li:last-child").mouseover(function(){
+        $("#header").addClass("active");
+        $("#header").css("height","600px")
+        .css("transition","all 2s");
+    }).mouseout(function(){
+        $("#header").removeClass("active");
+        $("#header").css("height","184px")
+        .css("transition","all 0.5s");
+    });
+
 });
