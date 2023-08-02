@@ -44,3 +44,11 @@
     border-left: 2px solid #fff;
     transform: rotate(45deg);
 }
+
+-----
+
+## top으로 이동 버튼
+jQuery를 이용하여 버튼을 보이게 / 안보이게
+
+$("html, body").scrollTop(0);
+$("html, body").stop().animate({"scrollTop":0}, 1500, "swing");
