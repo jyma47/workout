@@ -53,29 +53,67 @@ select, option, optgroup {
 }
 
 #header_wrap #header .gnb {
-    width: 730px;
+    width: 920px;
     height: 34px;
     position: absolute;
     left: 415px;
     top: 35px;
 }
 
-.gnb ul {
-    display: flex;
-    justify-content: space-between;
+.gnb > ul {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
-.gnb ul li a {
+.gnb > ul > li > a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 34px;
+    text-align:left;
+    margin-right:70px;
+}
+
+.gnb > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+.gnb > ul > li:first-child > a::after, .gnb > ul > li:last-child > a::after{
+    content: '';
+    position: absolute;
+    bottom: 40%;
+    margin-left:10px;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    transform: rotate(-135deg);
+}
+
+#header.active .gnb > ul > li:first-child > a::after, #header.active .gnb > ul > li:last-child > a::after{
+    bottom: 30%;
+    transform: rotate(45deg);
+}
+
+
+.gnb .sub{
+    padding-top:50px;
+    display:none;
+}
+
+.gnb .sub > li > a {
+    text-align:left;
     color: #FFF;
     font-size: 16px;
     font-weight: bold;
     line-height: 34px;
 }
 
-.gnb ul li a:hover {
+.gnb .sub > li > a:hover {
     text-decoration: underline;
 }
-
 
 #header_wrap #header .util {
     width: 95px;
@@ -118,7 +156,6 @@ select, option, optgroup {
 #container #main_visual {
     width: 100%;
     max-width: 1920px;
-    /* height:1090px; */
     margin: 0 auto;
     padding-top: 100px;
     position: relative;
