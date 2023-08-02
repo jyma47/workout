@@ -104,6 +104,10 @@ select, option, optgroup {
     left:-5px;
 }
 
+#header_wrap #header.active::after{
+    display:none;
+}
+
 
 /* contents */
 #container {
