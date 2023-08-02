@@ -255,6 +255,7 @@ select, option, optgroup {
 
 .brand_inner .contents .list01 li a:hover img{
     transform:scale(1.05);
+    transition:all 0.5s;
 }
 
 .brand_inner .contents .list01 li a:hover h3{
@@ -288,6 +289,7 @@ select, option, optgroup {
 
 .brand_inner .contents .list02 li a:hover img{
     transform:scale(1.05);
+    transition:all 0.5s;
 }
 
 .brand_inner .contents .list02 li a:hover h3{
