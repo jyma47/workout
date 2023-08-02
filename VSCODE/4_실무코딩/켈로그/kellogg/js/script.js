@@ -9,29 +9,25 @@ $(document).ready(function () {
 
     메인메뉴에 hover하면 서브메뉴가 보이고
     header에 active 클래스 추가
-    서브메뉴가 보임
+    서브메뉴가 보임 (transition을 여기에 준다)
     화살표는 위 모양
     
     */
 
     $(".gnb > ul > li:first-child").mouseover(function(){
         $("#header").addClass("active");
-        $("#header").css("height","600px")
-        .css("transition","all 2s");
+        $("#header").css("height","600px");
     }).mouseout(function(){
         $("#header").removeClass("active");
-        $("#header").css("height","184px")
-        .css("transition","all 0.5s");
+        $("#header").css("height","184px");
     });
 
     $(".gnb > ul > li:last-child").mouseover(function(){
         $("#header").addClass("active");
-        $("#header").css("height","600px")
-        .css("transition","all 2s");
+        $("#header").css("height","600px");
     }).mouseout(function(){
         $("#header").removeClass("active");
-        $("#header").css("height","184px")
-        .css("transition","all 0.5s");
+        $("#header").css("height","184px");
     });
 
 });
