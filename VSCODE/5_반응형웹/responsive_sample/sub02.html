@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=divice-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"> <!--뷰포트설정-->
+<title>반응형웹사이트</title>
+
+
+<link rel="stylesheet" type="text/css" href="css/reset.css"> <!--문서초기화 css-->
+<link rel="stylesheet" type="text/css" href="css/style.css"> <!--디자인 css-->
+
+<link rel="shortcut icon" href="img/favicon/favicon.ico"> <!--즐겨찾기 단축키 설정-->
+<link rel="apple-touch-icon-precomposed" href="img/favicon/indigo-touch-icon.png"> 
+<!--아이폰이,아이패드에서 웹페이지를 바탕 화면에 링크설정-->
+
+
+<script src="js/jquery-1.9.1.min.js"></script> <!--제이쿼리 라이브러리 링크-->
+
+<!--(1) 파일 링크-->
+<link rel="stylesheet" href="js/jquery.bxslider.css"> <!--bx슬라이더 CSS 연결-->
+<script src="js/jquery.bxslider.js"></script><!--제이쿼리 bx슬라이더 파일 연결-->
+  
+  
+<!--(3) 제이쿼리 입력-->  
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+        auto: true,   //자동실행
+        speed : 2000,
+      });
+    });
+  </script>
+
+
+
+
+<!--제이쿼리로 모바일 버전에서 전체메뉴 아이콘 토글기능 설정 -->
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".menu-toggle-btn").click(function(){
+		$(".gnb").stop().slideToggle("fast");
+	});
+});
+</script>
+
+</head>
+
+<body>
+<div id="wrap">
+    <div id="header_wrap">
+      <header id="header">
+        <h1 class="logo"><a href="index.html"><span class="blind">LOGO</span></a></h1>
+        <nav>
+          <ul class="gnb">
+                <li><a href="sub01.html">MEN</a></li>
+                <li><a href="sub02.html">WOMEN</a></li>
+                <li><a href="sub03.html">KIDS</a></li>
+                <li><a href="sub04.html">BRANDS</a></li> 
+            </ul>
+        </nav>
+          
+        <!--모바일 gnb 토글버튼메뉴-->
+        <span class="menu-toggle-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </header><!--//header-->
+    </div><!--헤더 100% 너비에 배경색 추가하기-->       
+    
+    <div id="visual_sub02">
+		  <h1>sub02</h1>
+    </div><!--//slider-->
+    
+    
+    
+    <!--서브페이지에 들어갈 콘텐츠(내용)의 영역-->
+    <div id="contents_subarea02">
+      <div id="container">
+        <!-- sub02 콘텐츠 시작-->    
+      
+      
+      
+      
+      
+      
+        <!-- sub02 콘텐츠 끝--> 
+	    </div><!--//container-->
+	  </div><!--//contents_subarea-->
+    
+    
+    
+    
+    <footer id="footer">
+      <ul class="f_menu">
+          <li><a href="#">하단메뉴1</a></li>
+          <li><a href="#">하단메뉴2</a></li>
+          <li><a href="#">하단메뉴3</a></li>
+          <li><a href="#">하단메뉴4</a></li>
+          <li><a href="#">하단메뉴5</a></li>
+          <li><a href="#">하단메뉴6</a></li>
+          <li><a href="#">하단메뉴7</a></li>
+      </ul>
+      <p class="copyright">Copyright 2022 name email. </p>
+      <p class="copyright">ⓒ adidas Korea, LLC. All Rights Reserved</p>
+  </footer><!--//footer-->
+</div><!--//wrap-->
+</body>
+</html>
