@@ -801,8 +801,10 @@ input {
 		top: 40px;
 		width: 70%;
 		height: 30px;
-		justify-content: space-between;
+	}
 
+	#header .gnb li {
+		width: 20%;
 	}
 
 	#header .gnb li a {
@@ -810,8 +812,8 @@ input {
 		text-align: center;
 		color: #000;
 		font-weight: bold;
-		width: inherit;
 		font-size: 14px;
+		width: 100%;
 		line-height: 30px;
 	}
 
@@ -1093,12 +1095,15 @@ input {
 	#header .gnb {
 		display: none;
 		position: absolute;
-		top: 60px;
+		top: 55px;
 		left: 30%;
 		width: 100%;
+
 	}
 
-	#header .gnb li {}
+	#header .gnb li {
+		width: 100%;
+	}
 
 	#header .gnb li a {
 		background: #FFF;
