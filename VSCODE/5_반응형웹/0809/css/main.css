@@ -216,7 +216,8 @@ a {
 /* 미디어 쿼리 - 모바일 */
 @media all and (max-width:640px) {
 
-
+    #wrap #section1, #wrap #section2 {margin:0;}
+    
     #wrap #section1 .box_1 {
         width:100%;
     }
@@ -229,7 +230,5 @@ a {
     #wrap #section1 .box_4 {
         width:100%;
     }
-
-    #wrap #section1, #wrap #section2 {margin:0;}
 
 }
