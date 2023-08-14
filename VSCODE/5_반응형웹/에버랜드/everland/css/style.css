@@ -1093,12 +1093,11 @@ input {
 	}
 
 	#header .gnb {
-		display: none;
+		flex-direction: column;
 		position: absolute;
 		top: 55px;
 		left: 30%;
 		width: 100%;
-
 	}
 
 	#header .gnb li {
