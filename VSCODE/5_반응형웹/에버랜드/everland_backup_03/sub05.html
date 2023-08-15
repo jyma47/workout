@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=divice-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"> <!--뷰포트설정-->
+<title>반응형웹 사이트</title>
+
+
+<link rel="stylesheet" type="text/css" href="css/reset.css"> <!--문서초기화 css-->
+<link rel="stylesheet" type="text/css" href="css/style.css"> <!--디자인 css-->
+
+<link rel="shortcut icon" href="img/favicon/favicon.jpg"> <!--즐겨찾기 단축키 설정-->
+
+
+<script src="js/jquery-1.9.1.min.js"></script> <!--제이쿼리 라이브러리 링크-->
+
+<!--(1) 파일 링크-->
+<link rel="stylesheet" href="js/jquery.bxslider.css"> <!--bx슬라이더 CSS 연결-->
+<script src="js/jquery.bxslider.js"></script><!--제이쿼리 bx슬라이더 파일 연결-->
+  
+  
+<!--(3) 제이쿼리 입력-->  
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+        auto: true,   //자동실행
+        speed : 2000,
+      });
+    });
+  </script>
+
+
+
+
+<!--제이쿼리로 모바일 버전에서 전체메뉴 아이콘 토글기능 설정 -->
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".menu-toggle-btn").click(function(){
+		$(".gnb").stop().slideToggle("fast");
+	});
+});
+</script>
+
+</head>
+
+<body>
+<div id="wrap">
+  <div id="header_wrap">
+    <header id="header">
+        <h1 class="logo"><a href="index.html"><span class="blind">에버랜드</span></a></h1>
+
+        <nav>
+            <ul class="gnb">
+                <li><a href="sub01.html">이용정보</a></li>
+                <li><a href="sub02.html">요금&프로모션</a></li>
+                <li><a href="sub03.html">즐길거리</a></li>
+                <li><a href="sub04.html">멤버십</a></li>
+                <li><a href="sub05.html">더 알아보기</a></li>
+            </ul>
+
+            <div class="search">
+                <input type="text" class="text">
+                <input type="submit" class="submit" value="">
+            </div>
+
+            <ul class="shortcut">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">손님상담센터</a></li>
+                <li><a href="#">CAST 채용</a></li>
+            </ul>
+
+            <div class="btn">
+                <a href="#"><img src="img/s-images/logo_magicseed.png" alt=""></a>
+            </div>
+        </nav>
+
+
+
+        <!--모바일 gnb 토글버튼메뉴-->
+        <span class="menu-toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+    </header><!--//header-->
+    <div class="line"></div>
+</div><!--헤더 100% 너비에 배경색 추가하기-->
+    
+    <div id="visual_sub05">
+		  <h1>더 알아보기</h1>
+    </div><!--//slider-->
+    
+    
+    
+    <!--서브페이지에 들어갈 콘텐츠(내용)의 영역-->
+    <div id="contents_subarea05">
+      <div id="container"> 
+        <!-- sub05 콘텐츠 시작-->    
+        
+        
+        
+        
+        
+        
+        <!-- sub05 콘텐츠 끝--> 
+      </div><!--//container-->
+	  </div><!--//contents_subarea-->
+    
+    
+    <footer id="footer">
+      <div class="footer_wrap">
+          <div class="footer_inner">
+              <ul class="sns">
+                  <li><a href="#"><img src="img/s-images/btn_sns_go01.gif" alt=""></a></li>
+                  <li><a href="#"><img src="img/s-images/btn_sns_go02.gif" alt=""></a></li>
+                  <li><a href="#"><img src="img/s-images/btn_sns_go03.gif" alt=""></a></li>
+                  <li><a href="#"><img src="img/s-images/btn_sns_go04.gif" alt=""></a></li>
+                  <li><a href="#"><img src="img/s-images/btn_sns_go05.gif" alt=""></a></li>
+                  <li><a href="#"><img src="img/s-images/btn_sns_go06.gif" alt=""></a></li>
+              </ul>
+              <ul class="dropdown">
+                  <li>
+                     <select name="resort" id="">
+                      <option value="#">리조트 내 시설</option>
+                     </select>
+                  </li>
+                  <li>
+                      <select name="family" id="">
+                          <option value="#">FAMILY SITE</option>
+                      </select>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div class="footer_info">
+          <ul class="f_menu">
+              <li><a href="#">에버랜드 리조트 소개</a></li>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">이메일주소 무단수집 거부</a></li>
+              <li><a href="#">CAST참여</a></li>
+              <li><a href="#">사이트맵</a></li>
+          </ul>
+          <p class="address">경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성물산(주)</p>
+          <ul class="f_menu">
+              <li>대표이사 : 정해린</li>
+              <li>사업자등록번호 : 135-85-04288</li>
+              <li> 통신판매업 신고번호 : 제2006-용인처인-0216호</li>
+              <li><a href="#">사업자정보확인</a></li>
+          </ul>
+          <ul class="f_menu">
+              <li>손님상담센터 : 031-320-5000(유료)</li>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">방침 개정 안내</a></li>
+              <li><a href="#">입찰 공고</a></li>
+          </ul>
+          <p class="copyright">Copyright © Samsung C&T Corporation. All rights reserved.</p>
+      </div>
+  </footer><!--//footer-->
+</div><!--//wrap-->
+</body>
+</html>
