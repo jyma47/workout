@@ -1059,7 +1059,7 @@ input {
 
 #visual_sub01 {
 	display: block;
-	width: 75%;
+	width: 100%;
 	max-width: 1450px;
 	margin: 0 auto;
 	height: 350px;
@@ -1099,7 +1099,7 @@ input {
 /*sub02 페이지 PC버전---------------------------------------------------------*/
 #visual_sub02 {
 	display: block;
-	width: 75%;
+	width: 100%;
 	max-width: 1450px;
 	margin: 0 auto;
 	height: 350px;
@@ -1138,7 +1138,7 @@ input {
 /*sub03 페이지 PC버전----------------------------------------------------------*/
 #visual_sub03 {
 	display: block;
-	width: 75%;
+	width: 100%;
 	max-width: 1450px;
 	margin: 0 auto;
 	height: 350px;
@@ -1176,7 +1176,7 @@ input {
 /*sub04 페이지 PC버전----------------------------------------------------------*/
 #visual_sub04 {
 	display: block;
-	width: 75%;
+	width: 100%;
 	max-width: 1450px;
 	margin: 0 auto;
 	height: 350px;
@@ -1210,7 +1210,7 @@ input {
 /*sub05 페이지 PC버전----------------------------------------------------------*/
 #visual_sub05 {
 	display: block;
-	width: 75%;
+	width: 100%;
 	max-width: 1450px;
 	margin: 0 auto;
 	height: 350px;
