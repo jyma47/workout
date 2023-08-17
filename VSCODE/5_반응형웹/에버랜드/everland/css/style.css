@@ -1,11 +1,15 @@
 @charset "utf-8";
 
 /*공통 스타일*/
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
 #container {
 	width: 90%;
 	max-width: 1200px;
 	margin: 0 auto;
-	font-family:'Noto Sans KR', sans-serif;
+	font-family: 'Noto Sans KR', sans-serif;
 }
 
 .cfixed:after {
@@ -302,8 +306,8 @@ input {
 	height: auto;
 }
 
-#whats_new .work_wrap .work-list li a:hover img{
-	transform:scale(1.05);
+#whats_new .work_wrap .work-list li a:hover img {
+	transform: scale(1.05);
 	transition: all 1s;
 }
 
@@ -311,7 +315,7 @@ input {
 
 
 #whats_new .work_wrap .work-list li .info {
-	padding:20px;
+	padding: 20px;
 	opacity: 1;
 	text-align: center;
 }
@@ -329,25 +333,24 @@ input {
 #whats_new .work_wrap .work-list li .info span {
 	font-size: 17px;
 	color: #3b3b3b;
-	font-weight:400;
+	font-weight: 400;
 	letter-spacing: -1px;
 }
 
 
 /*프로모션*/
 
-#promotion {
-	width:100%;
-	/* height : 495px */
-	padding-top: 50px;
-	background:#f7f7f7;
+#ticket_promotion {
+	width: 100%;
+	padding: 50px 0;
+	background: #f7f7f7;
 }
 
-#promotion .sec_title {
+#ticket_promotion .sec_title {
 	margin-bottom: 20px;
 }
 
-#promotion .sub_title {
+#ticket_promotion .sub_title {
 	width: 90%;
 	max-width: 1600px;
 	text-align: center;
@@ -358,157 +361,147 @@ input {
 	letter-spacing: -1px;
 }
 
-#promotion .promo_list {
+#ticket_promotion .promo_list {
 	display: flex;
 	flex-wrap: wrap;
-	background:#FFFFFF;
-	width:100%;
-	max-width:1000px;
-	margin:0 auto;
+	background: #FFFFFF;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
 	color: #3b3b3b;
 	border: 1px solid #e6e6e6;
 	box-sizing: border-box;
 }
 
-#promotion .promo_list li {
+#ticket_promotion .promo_list li {
 	width: 20%;
-	padding:20px 0;
+	padding: 20px 0;
 	text-align: center;
 }
 
-#promotion .promo_list li span {
-	display:block;
+#ticket_promotion .promo_list li span {
+	display: block;
 	font-size: 14px;
-	margin-bottom:20px;
+	margin-bottom: 20px;
 	color: #666;
 	font-weight: 400;
 	text-align: center;
 }
 
-#promotion .promo_list li img {
-	display:block;
+#ticket_promotion .promo_list li img {
+	display: block;
 	width: 62px;
-	height:62px;
+	height: 62px;
 	text-align: center;
-	margin:0 auto;
+	margin: 0 auto;
 }
 
-#promotion .promo_list li h3 {
+#ticket_promotion .promo_list li h3 {
 	font-size: 18px;
 	margin: 20px 0 15px;
 	color: #333;
 	font-weight: 600;
 }
 
-#promotion .promo_list li p {
+#ticket_promotion .promo_list li p {
 	font-size: 16px;
-	line-height:16px;
+	line-height: 16px;
 	letter-spacing: -0.8px;
-	text-align:center;
-	color:#ff805d;
-	font-weight:500;
+	text-align: center;
+	color: #ff805d;
+	font-weight: 500;
 }
 
-#promotion .promo_list li {
-	border-right:1px solid #e6e6e6;
+#ticket_promotion .promo_list li {
+	border-right: 1px solid #e6e6e6;
 	box-sizing: border-box;
 }
 
-#promotion .promo_list li:last-child{
-	border-right:none;
+#ticket_promotion .promo_list li:last-child {
+	border-right: none;
 }
 
-#promotion .btn_area {
-	width:100%;
-	max-width:1010px;
-	height:45px;
-	margin:0 auto;
-	margin-top:25px;
-	text-align:center;
-}
-
-#promotion .btn_area a {
-	box-sizing:border-box;
-	width: 250px;
-    height: 45px;
-	padding:8px 20px;
-    border-radius: 30px;
-    background-color: rgba(255,255,255,0.7);
-    box-shadow: 0 5px 0 rgba(0,0,0,0.05);
-    border: 1px solid #ff4c1c;
-}
-
-#promotion .btn_area a span {
-	font-size:15px;
-	line-height:15px;
-	letter-spacing: -1px;
-	font-weight:500;
-	margin-right:10px;
-}
-
-/*디스플레이*/
-
-#display {
-	margin-top: 100px;
-	text-align: left;
-	overflow: hidden;
-}
-
-#display .sec_title {
-	margin-bottom: 20px;
-}
-
-#display .disc {
+#ticket_promotion .btn_area {
 	width: 100%;
-	padding-left: 0px;
-	position: relative;
-	font-size: 1.4em;
-	color: #666;
-	line-height: 1.6em;
-	text-align: justify;
-	padding-top: 20px;
-	letter-spacing: -0.5px;
+	max-width: 1010px;
+	height: 45px;
+	margin: 0 auto;
+	margin-top: 25px;
+	text-align: center;
 }
 
-/*work*/
-#work {
-	margin-top: 70px;
-	padding-top: 30px;
+#ticket_promotion .btn_area a {
+	box-sizing: border-box;
+	width: 250px;
+	height: 45px;
+	padding: 8px 20px;
+	border-radius: 30px;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0 5px 0 rgba(0, 0, 0, 0.05);
+	border: 1px solid #ff4c1c;
 }
 
-#work .sec_title {
+#ticket_promotion .btn_area a span {
+	font-size: 15px;
+	line-height: 15px;
+	letter-spacing: -1px;
+	font-weight: 500;
+	margin-right: 10px;
+}
+
+/*vacation_package*/
+#vacation_package {
+	padding: 50px 0;
+	background: #f8ebef;
+}
+
+#vacation_package .sec_title {
 	width: 90%;
 	max-width: 1600px;
 	text-align: center;
 	margin: 0 auto;
-	margin-bottom: 47px;
+	margin-bottom: 25px;
 }
 
-#work .work_wrap {
+
+#vacation_package .sub_title {
+	width: 90%;
+	max-width: 1600px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 45px;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+#vacation_package .work_wrap {
 	width: 100%;
 	margin: 0 auto;
-	max-width: 1600px;
+	max-width: 1010px;
 }
 
-#work .work_wrap .work-list {
+#vacation_package .work_wrap .work-list {
 	display: flex;
 	flex-wrap: wrap;
 	overflow: hidden;
 }
 
-#work .work_wrap .work-list li {
-	width: 25%;
-	margin: 0%
+#vacation_package .work_wrap .work-list li {
+	width: 23%;
+	margin: 1%;
 }
 
-#work .work_wrap .work-list li a {
+#vacation_package .work_wrap .work-list li a {
 	display: block;
 	position: relative;
 	width: 100%;
 	height: 100%;
+	overflow: hidden;
+	color: #3b3b3b;
+	font-weight: 500;
 }
 
-#work .work_wrap .work-list li a:before {
+#vacation_package .work_wrap .work-list li a:before {
 	display: block;
 	position: absolute;
 	top: 0;
@@ -521,73 +514,68 @@ input {
 	transition: all 0.2s;
 }
 
-#work .work_wrap .work-list li a:hover:before {
-	border: 2px solid #000;
-	box-sizing: border-box;
-	opacity: 0.9;
-}
-
-#work .work_wrap .work-list li img {
+#vacation_package .work_wrap .work-list li img {
 	display: block;
 	width: 100%;
 	max-width: 100%;
 	height: auto;
 }
 
+#vacation_package .work_wrap .work-list li a:hover img {
+	transform: scale(1.05);
+	transition: all 1s;
+}
+
+
 /*한줄, 가변이미지*/
 
 
-#work .work_wrap .work-list li .info {
-	position: absolute;
-	bottom: 20px;
-	right: 30px;
-	z-index: 20;
+#vacation_package .work_wrap .work-list li .info {
+	padding: 20px;
 	opacity: 1;
-	transition: all 0.3s;
+	text-align: center;
 }
 
-#work .work_wrap .work-list li a:hover .info {
-	transform: translateY(-23px);
-	opacity: 1;
-}
 
 /*마우스를 오버 했을때 변형속성을 세로 위치 지정*/
-#work .work_wrap .work-list li .info h3 {
+#vacation_package .work_wrap .work-list li .info h3 {
 	margin-bottom: 8px;
-	font-size: 23px;
-	color: #fff;
-	font-weight: normal;
-	text-shadow: 0 0 4px #000;
+	font-size: 15px;
+	color: #3b3b3b;
+	font-weight: 400;
+	letter-spacing: -1px;
 }
 
-#work .work_wrap .work-list li .info span {
-	font-size: 12px;
-	color: #fff;
-	text-shadow: 0 0 4px #000;
+#vacation_package .work_wrap .work-list li .info span {
+	font-size: 17px;
+	color: #3b3b3b;
+	font-weight: 400;
+	letter-spacing: -1px;
 }
-
-
 
 /*블로그*/
 #blog {
-	margin-top: 0px;
-	background: #b6d3db;
-	padding-top: 90px;
-	padding-bottom: 90px;
+	background: #f7f7f7;
+	padding: 60px 0;
 }
 
 #blog .sec_title {
-	float: left;
-	width: 25.45%;
-	margin-bottom: 0;
-	text-align: left;
+	margin-bottom: 20px;
+}
+
+#blog .sub_title {
+	width: 90%;
+	max-width: 1600px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 45px;
+	font-weight: 300;
+	font-size: 20px;
+	letter-spacing: -1px;
 }
 
 /* 288px x 1200px에서 대략 치수 */
 #blog .blog-list {
-	float: right;
-	width: 74.55%;
-	margin-top: 0;
 	overflow: hidden;
 	margin-bottom: 20px;
 	display: flex;
@@ -595,124 +583,391 @@ input {
 }
 
 /* 844px x 1200px에서 대략 치수 */
-#blog .blog-list li {
-	width: 31%;
-	margin-right: 3.5%;
-	margin-top: 0;
+#blog .blog-list>li {
+	width: 33%;
+	margin-right: 0.5%;
+	box-sizing: border-box;
+	border: 1px solid #EEE;
+	border-top: 2px solid #ff542a;
+	background: #FFF;
+	padding-top: 35px;
+	text-align: center;
 }
 
-#blog .blog-list li:first-child {
-	margin-top: 0;
-}
-
-#blog .blog-list li:last-child {
+#blog .blog-list>li:last-child {
+	background: none;
 	margin-right: 0;
+	border: none;
+	padding-top: 0;
 }
 
-#blog .blog-list li img {
+#blog .blog-list>li h3 {
+	color: #444;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+#blog .blog-list>li h5 {
+	color: #444;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: -1px;
+}
+
+#blog .blog-list>li:last-child>ul>li {
+	background: #FFF;
+}
+
+#blog .blog-list>li:last-child>ul>li:first-child {
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+
+.notice_list {
+	width: 90%;
+	margin: 20px auto;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+
+}
+
+.notice_list li {
+	border-bottom: 1px solid #CCC;
+}
+
+.notice_list li:last-child {
+	border-bottom: none;
+}
+
+.notice_list li a {
+	padding: 15px 0;
+	display: block;
+	width: 100%;
+	text-align: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #666;
+	font-size: 15px;
+}
+
+.notice_list li a::before {
+	content: "．";
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.time_table {
+	border-top: 1px solid #CCC;
+	padding-top: 30px;
+	width: 90%;
+	margin: 20px auto;
+	margin-bottom: 0;
+	box-sizing: border-box;
+}
+
+.time_table .date {
+	display: block;
+	text-align: center;
+	width: 100%;
+	color: #272830;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.time_table .time {
+	display: block;
+	text-align: center;
+	width: 100%;
+	color: #ff4c2b;
+	font-size: 41px;
+	font-weight: 800;
+	font-family: Montserrat, sans-serif;
+}
+
+.time_table .table_list {
+	width: 90%;
+	height: 180px;
+	margin: 0 auto;
+	overflow-y: scroll;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.time_table .table_list li {
+	margin-bottom: 20px;
+}
+
+.time_table .table_list li span {
+	font-size: 16px;
+}
+
+.time_table .table_list li span:first-child {
+	margin-right: 20px;
+	width: 20%;
+}
+
+.time_table .table_list li span:last-child {
+	width: 80%;
+}
+
+#blog .blog-list>li:nth-child(2) .btn_area {
+	width: 100%;
+	height: 50px;
+	margin-top: 30px;
+}
+
+#blog .blog-list>li:nth-child(2) .btn_area a {
+	box-sizing: border-box;
+	width: 45%;
+	height: 45px;
+	padding: 8px 20px;
+	border-radius: 30px;
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+	font-weight: 500;
+}
+
+#blog .blog-list>li:nth-child(2) .btn_area a:first-child {
+	border: 1px solid #ff5a26;
+	color: #ff5a26;
+}
+
+#blog .blog-list>li:nth-child(2) .btn_area a:last-child {
+	border: 1px solid #9776b0;
+	color: #9776b0;
+}
+
+#blog .blog-list>li:nth-child(2) .btn_area a span {
+	font-size: 15px;
+	line-height: 15px;
+	letter-spacing: -1px;
+	font-weight: 500;
+	margin-right: 10px;
+}
+
+#blog .blog-list>li:nth-child(3) {}
+
+#blog .blog-list>li:nth-child(3) .title {
+	background: #ff552a;
+	padding: 40px 60px;
+}
+
+#blog .blog-list>li:nth-child(3) .title h3,
+#blog .blog-list>li:nth-child(3) .title h5 {
+	color: #FFF;
+}
+
+.reserve_list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.reserve_list li {
+	width: 50%;
+	height: 85px;
+	box-sizing: border-box;
+	border: 1px solid #EEE;
+}
+
+.reserve_list li a {
+	display: block;
+	width: 100%;
+	height: inherit;
+}
+
+.reserve_list li a i {
+	display: inline-block;
+	padding-left: 55px;
+	height: 82px;
+	line-height: 80px;
+	background-position: left center;
+	color: #272830;
+	font-size: 16px;
+	font-style: normal;
+	box-sizing: border-box;
+}
+
+.reserve_list li:nth-child(1) a i {
+	background-image: url(../img/s-images/ico_smart_reservation_01_01.png);
+	background-repeat: no-repeat;
+}
+
+.reserve_list li:nth-child(2) a i {
+	background-image: url(../img/s-images/ico_smart_reservation_02_01.png);
+	background-repeat: no-repeat;
+}
+
+.reserve_list li:nth-child(3) a i {
+	background-image: url(../img/s-images/ico_smart_reservation_03_01.png);
+	background-repeat: no-repeat;
+}
+
+.reserve_list li:nth-child(4) a i {
+	background-image: url(../img/s-images/ico_smart_reservation_04_01.png);
+	background-repeat: no-repeat;
+}
+
+.reserve_list li:nth-child(5) a i {
+	background-image: url(../img/s-images/ico_smart_reservation_05_01.png);
+	background-repeat: no-repeat;
+}
+
+.reserve_list li:nth-child(6) a i {
+	background-image: url(../img/s-images/ico_smart_reservation_06_01.png);
+	background-repeat: no-repeat;
+}
+
+.transport {
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.transport span {
+	font-size: 20px;
+	line-height: 35px;
+	font-weight: 400;
+}
+
+/*editors_clip*/
+#editors_clip {
+	padding: 50px 0;
+}
+
+#editors_clip .sec_title {
+	width: 90%;
+	max-width: 1600px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+
+#editors_clip .sub_title {
+	width: 90%;
+	max-width: 1600px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 45px;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+#editors_clip .work_wrap {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1010px;
+}
+
+#editors_clip .work_wrap .work-list {
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+
+#editors_clip .work_wrap .work-list li {
+	width: 23%;
+	margin: 1%;
+}
+
+#editors_clip .work_wrap .work-list li a {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	color: #3b3b3b;
+	font-weight: 500;
+}
+
+#editors_clip .work_wrap .work-list li a:before {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	content: "";
+	opacity: 0.0;
+	transition: all 0.2s;
+}
+
+#editors_clip .work_wrap .work-list li img {
 	display: block;
 	width: 100%;
 	max-width: 100%;
 	height: auto;
+	border-radius: 50%;
 }
+
+#editors_clip .work_wrap .work-list li a:hover img {
+	transform: scale(1.05);
+	transition: all 1s;
+}
+
 
 /*한줄, 가변이미지*/
-#blog .blog-list li time {
-	display: block;
-	margin: 11px 0;
-	font-size: 11px;
-	color: #999;
-}
 
-#blog .blog-list li h3 {
-	color: #444;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 1.6;
+
+#editors_clip .work_wrap .work-list li .info {
+	padding: 20px;
+	opacity: 1;
+	text-align: center;
 }
 
 
+/*마우스를 오버 했을때 변형속성을 세로 위치 지정*/
+#editors_clip .work_wrap .work-list li .info h3 {
+	margin-bottom: 8px;
+	font-size: 15px;
+	color: #3b3b3b;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
 
-/*연락처 Contact*/
-#contact {
-	width: 90%;
-	max-width: 1400px;
-	display: flex;
-	flex-wrap: wrap;
+#editors_clip .work_wrap .work-list li .info span {
+	font-size: 17px;
+	color: #3b3b3b;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+
+#editors_clip .btn_area {
+	width: 100%;
+	max-width: 1010px;
+	height: 45px;
 	margin: 0 auto;
-	background: #fff;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	margin-top: 25px;
+	text-align: center;
 }
 
-#contact .sec_title {
-	width: 25%;
-	margin-bottom: 47px;
-	text-align: left;
-}
-
-#contact .form_box {
-	width: 75%;
-	margin-top: 0;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-#contact .form_box .personal {
-	width: 48%;
-	margin-right: 2.8%;
-}
-
-#contact .form_box .text {
-	width: 48%;
-}
-
-#contact .form_box .personal input {
-	padding: 13px;
-	margin-bottom: 38px;
-	border: none;
-	border-bottom: 1px solid #666;
+#editors_clip .btn_area a {
 	box-sizing: border-box;
+	width: 250px;
+	height: 45px;
+	padding: 8px 20px;
+	border-radius: 30px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border: 1px solid #3b3b3b;
 }
 
-#contact .form_box .text textarea {
-	height: 203px;
-	padding: 13px;
-	border: none;
-	border-bottom: 1px solid #666;
-	box-sizing: border-box;
+#editors_clip .btn_area a span {
+	font-size: 15px;
+	line-height: 15px;
+	letter-spacing: -1px;
+	font-weight: 500;
+	margin-right: 10px;
 }
 
-#contact .form_box .send_btn {
-	text-align: right;
-}
 
-/*오른쪽 정렬*/
-#contact .form_box .send_btn button {
-	padding: 13px;
-	margin-top: 30px;
-	border: 0;
-	font-size: 12px;
-	color: #fff;
-	background: #000;
-	cursor: pointer;
-}
 
-#contact .form_box .send_btn button:hover {
-	background: #fff;
-}
-
-/*메인 contact에 폼 안에 문자 색상*/
-
-::-moz-input-placeholder,
-::-moz-textarea-placeholder {
-	color: #000;
-}
-
-::-webkit-input-placeholder,
-::-webkit-textarea-placeholder {
-	color: #000;
-}
 
 
 /*푸터영역*/
@@ -1056,73 +1311,47 @@ input {
 
 
 	/*프로모션*/
-	#promotion {
+	#ticket_promotion {
 		margin-top: 70px;
 	}
 
-	#promotion .promo_list li {
+	#ticket_promotion .promo_list li {
 		width: 90%;
 		margin: 0 2.5% 50px 2.5%;
-		border-right:none;
-		border-top:1px solid #e6e6e6;
+		border-right: none;
+		border-top: 1px solid #e6e6e6;
 	}
 
-	#promotion .promo_list li:first-child {
-		border-top:none;
+	#ticket_promotion .promo_list li:first-child {
+		border-top: none;
 	}
 
-	/*디스플레이*/
-	#display {
-		margin-top: 100px;
-		text-align: center;
-	}
-
-	#display .sec_title {
-		float: none;
-	}
-
-	#display .disc {
-		float: none;
-		padding-left: 0px;
-		font-size: 1.2em;
-		padding-bottom: 30px;
-	}
-
-	#display .disc:before {
-		display: none;
-	}
-
-
-	/*work*/
-	#work {
+	/*vacation_package*/
+	#vacation_package {
 		margin-top: 70px;
 	}
 
-	#work .work_wrap .sec_title {
+	#vacation_package .work_wrap .sec_title {
 		margin-bottom: 65px;
 		text-align: center;
 	}
 
-	#work .work_wrap .work-list li {
+	#vacation_package .work_wrap .work-list li {
 		width: 45%;
 		margin: 2.5%;
 	}
 
-	#work .work_wrap .work-list li .info {
+	#vacation_package .work_wrap .work-list li .info {
 		left: 40px;
 	}
 
 
 	/*블로그*/
-	#blog {
-		margin-top: 124px;
-	}
 
 	#blog .sec_title {
 		float: none;
 		width: 100%;
-		margin-bottom: 76px;
-		text-align: center;
+		margin-bottom: 20px;
 	}
 
 	#blog .blog-list {
@@ -1130,45 +1359,35 @@ input {
 		width: 100%;
 	}
 
-	#blog .blog-list li {
-		float: left;
-		width: 31%;
-		margin-right: 3.5%;
-		margin-top: 0;
+	#blog .blog-list>li {
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 20px;
 	}
 
-	#blog .blog-list li:last-child {
-		margin-right: 0;
+	#blog .blog-list>li:last-child {
+		margin: 0 auto;
 	}
 
 
-	/*연락처*/
-	#contact {
-		margin-top: 100px;
+	/*editors_clip*/
+	#editors_clip {
+		margin-top: 70px;
 	}
 
-	#contact .sec_title {
-		float: none;
-		width: 100%;
-		margin-bottom: 50px;
+	#editors_clip .work_wrap .sec_title {
+		margin-bottom: 65px;
 		text-align: center;
 	}
 
-	#contact .form_box {
-		float: none;
-		width: 100%;
+	#editors_clip .work_wrap .work-list li {
+		width: 45%;
+		margin: 2.5%;
 	}
 
-	#contact .form_box .text textarea {
-		height: 202px;
+	#editors_clip .work_wrap .work-list li .info {
+		left: 40px;
 	}
-
-	#contact .form_box .send_btn {
-		clear: both;
-	}
-
-
-
 
 
 	/*푸터영역*/
@@ -1407,25 +1626,13 @@ input {
 	}
 
 	/*프로모션*/
-	#promotion .promo_list li {
+	#ticket_promotion .promo_list li {
 		width: 90%;
 		margin: 0 5% 30px 5%;
 	}
 
-	/*디스플레이*/
-	#display {
-		text-align: justify;
-	}
-
-	#display .sec_title {
-		margin-bottom: 50px;
-	}
-
-
-
-
-	/*work*/
-	#work .work_wrap .work-list li {
+	/*vacation_package*/
+	#vacation_package .work_wrap .work-list li {
 		width: 100%;
 		margin: 0;
 	}
@@ -1433,30 +1640,24 @@ input {
 
 	/*블로그*/
 	#blog {
-		padding-top: 45px;
-		padding-bottom: 45px;
+		padding: 45px 0;
 	}
 
-	#blog .sec_title {
-		margin-bottom: 47px;
+	#blog .sec_title,
+	#blog .sub_title {
+		margin-bottom: 25px;
 	}
 
-	#blog .blog-list li {
+	#blog .blog-list>li {
 		width: 100%;
-		margin-top: 45px;
+		margin-top: 35px;
 	}
 
 
-	/*연락처*/
-	#contact .form_box .personal {
-		float: none;
+	/*editors_clip*/
+	#editors_clip .work_wrap .work-list li {
 		width: 100%;
-		margin-right: 0%;
-	}
-
-	#contact .form_box .text {
-		float: none;
-		width: 100%;
+		margin: 0;
 	}
 
 	/*푸터영역*/
