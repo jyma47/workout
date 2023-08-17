@@ -830,6 +830,7 @@ input {
 
 
 .transport span {
+	width:250px;
 	font-size: 20px;
 	line-height: 35px;
 	font-weight: 400;
@@ -975,6 +976,7 @@ input {
 	width: 100%;
 	height: 195px;
 	background: #444b55;
+	position:relative;
 }
 
 #footer .footer_wrap {
@@ -1039,7 +1041,18 @@ input {
 }
 
 
+#footer .escrow{
+	padding:10px;
+	background-color: #FFF;
+	position:absolute;
+	bottom:40px; right:250px;
+	border-radius:5px;
+}
 
+#footer .escrow a {
+	display:block;
+	width:100%;
+}
 
 
 /*sub01 페이지 PC버전--------------------------------------------------------*/
@@ -1317,7 +1330,7 @@ input {
 
 	#ticket_promotion .promo_list li {
 		width: 90%;
-		margin: 0 2.5% 50px 2.5%;
+		margin: 0 2.5%;
 		border-right: none;
 		border-top: 1px solid #e6e6e6;
 	}
@@ -1327,10 +1340,7 @@ input {
 	}
 
 	/*vacation_package*/
-	#vacation_package {
-		margin-top: 70px;
-	}
-
+	
 	#vacation_package .work_wrap .sec_title {
 		margin-bottom: 65px;
 		text-align: center;
@@ -1369,6 +1379,14 @@ input {
 		margin: 0 auto;
 	}
 
+	.transport {
+		justify-content: center;
+	}
+	
+	
+	.transport span {
+		margin-left:20px;
+	}
 
 	/*editors_clip*/
 	#editors_clip {
@@ -1415,6 +1433,8 @@ input {
 		width: 80%;
 		text-align: center;
 	}
+
+	#footer .escrow {display:none;}
 
 
 
@@ -1541,10 +1561,6 @@ input {
 
 }
 
-
-
-
-
 /*Mobile  CSS*/
 @media all and (max-width:768px) {
 
@@ -1580,6 +1596,7 @@ input {
 
 	#header .gnb li {
 		width: 100%;
+		display:none;
 	}
 
 	#header .gnb li a {
@@ -1621,20 +1638,20 @@ input {
 
 	/*whats_new*/
 	#whats_new .work_wrap .work-list li {
-		width: 100%;
-		margin: 0;
+		width: 80%;
+		margin: 0 auto;
 	}
 
 	/*프로모션*/
 	#ticket_promotion .promo_list li {
-		width: 90%;
+		width: 80%;
 		margin: 0 5% 30px 5%;
 	}
 
 	/*vacation_package*/
 	#vacation_package .work_wrap .work-list li {
-		width: 100%;
-		margin: 0;
+		width: 80%;
+		margin: 0 auto;
 	}
 
 
@@ -1656,14 +1673,12 @@ input {
 
 	/*editors_clip*/
 	#editors_clip .work_wrap .work-list li {
-		width: 100%;
-		margin: 0;
+		width: 80%;
+		margin: 0 auto;
 	}
 
 	/*푸터영역*/
-	#footer .f_menu li {}
-
-	#footer p {}
+	
 
 
 	/*sub01 페이지 모바일 버전----------------------------------------------*/
