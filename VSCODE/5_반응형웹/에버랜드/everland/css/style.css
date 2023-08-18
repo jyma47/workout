@@ -1113,12 +1113,29 @@ input {
 	width:100%;
 }
 
-#contents_subarea01 .news {
+#contents_subarea01 .use {
 	width:calc(100% - 215px);
 	float:left;
 	border:1px solid #666;
 	border-radius:3px;
 	box-sizing: border-box;
+}
+
+
+#contents_subarea01 .use .title {
+	padding:10px;
+	box-sizing: border-box;
+	margin-bottom:10px;
+	font-size:18px;
+}
+
+#contents_subarea01 .use .image {
+	width:90%;
+	margin:20px auto;
+}
+
+#contents_subarea01 .use .image img {
+	width:100%;
 }
 
 
@@ -1179,6 +1196,13 @@ input {
 	border:1px solid #666;
 	border-radius:3px;
 	box-sizing: border-box;
+}
+
+#contents_subarea02 .promotion .title {
+	padding:10px;
+	box-sizing: border-box;
+	margin-bottom:10px;
+	font-size:18px;
 }
 
 
@@ -1442,6 +1466,7 @@ input {
 	box-sizing: border-box;
 	padding:10px 0;
 	font-size:16px;
+	cursor:pointer;
 }
 
 #contents_subarea05 .nav_area ul li.active{
@@ -1671,10 +1696,6 @@ input {
 
 	#visual_sub01 h1 {
 		font-size: 7vh;
-		color: #900;
-		font-weight: 900;
-		padding-top: 100px;
-		text-shadow: 0 0 0px #000;
 	}
 
 	#contents_subarea01 {
@@ -1688,7 +1709,7 @@ input {
 		display:none;
 	}
 
-	#contents_subarea01 .news {
+	#contents_subarea01 .use {
 		width:100%;
 	}
 
@@ -1703,10 +1724,6 @@ input {
 
 	#visual_sub02 h1 {
 		font-size: 7vh;
-		color: #000;
-		font-weight: 900;
-		padding-top: 100px;
-		text-shadow: 0 0 5px #666;
 	}
 
 	#contents_subarea02 {
@@ -1735,10 +1752,6 @@ input {
 
 	#visual_sub03 h1 {
 		font-size: 7vh;
-		color: #fff;
-		font-weight: 900;
-		padding-top: 100px;
-		text-shadow: 0 0 5px #000;
 	}
 
 	#contents_subarea03 {
@@ -1775,10 +1788,6 @@ input {
 
 	#visual_sub04 h1 {
 		font-size: 7vh;
-		color: #ff5;
-		font-weight: 900;
-		padding-top: 100px;
-		text-shadow: 0 0 5px #000;
 	}
 
 	#contents_subarea04 {
@@ -1807,17 +1816,12 @@ input {
 
 	#visual_sub05 h1 {
 		font-size: 7vh;
-		color: #ff5;
-		font-weight: 900;
-		padding-top: 100px;
-		text-shadow: 0 0 5px #000;
 	}
 
 	#contents_subarea05 {
 		width: 100%;
 		min-height: 1000px;
 		margin: 50px auto 0 auto;
-		background: #f06;
 	}
 
 }
