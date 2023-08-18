@@ -1006,6 +1006,12 @@ input {
 	margin-left: 15px;
 }
 
+.footer_inner .dropdown select {
+	padding:5px;
+	border:1px solid #CCC;
+	border-radius: 3px;
+}
+
 #footer .footer_info {
 	background: #444b55;
 	color: #ccc;
@@ -1039,6 +1045,7 @@ input {
 	margin: 10px auto;
 	color: #ccc;
 }
+
 
 
 #footer .escrow{
