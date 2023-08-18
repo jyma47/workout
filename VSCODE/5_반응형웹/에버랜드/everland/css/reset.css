@@ -72,4 +72,6 @@ hr {
 input, textarea {width:100%; margin:0; padding:0;}
 
 
- 
+select, option, optgroup {
+	margin:0; padding:0; border:0;
+}
