@@ -1205,6 +1205,43 @@ input {
 	font-size:18px;
 }
 
+#contents_subarea02 .promotion .dc01 {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	background-color: #EEE;
+}
+
+#contents_subarea02 .promotion .dc01 > div {
+	width:45%;
+	padding:20px;
+}
+
+#contents_subarea02 .promotion .dc01 > div img {
+	width:100%;
+}
+
+#contents_subarea02 .promotion .dc02 {
+	/* background-color: pink; */
+	padding:20px 0;
+}
+
+#contents_subarea02 .promotion .dc02 > ul{
+	width:90%;
+	margin:0 auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+
+#contents_subarea02 .promotion .dc02 > ul > li {
+	width:19%;
+}
+
+#contents_subarea02 .promotion .dc02 > ul > li img {
+	width:100%;
+}
+
 
 /*sub03 페이지 PC버전----------------------------------------------------------*/
 #visual_sub03 {
@@ -1443,6 +1480,14 @@ input {
 	margin-bottom:15px;
 }
 
+#contents_subarea05 .title h2 span {
+	color:#999;
+}
+
+#contents_subarea05 .title h2 strong {
+	color:#ff6514;
+}
+
 #contents_subarea05 .title p {
 	font-size:14px;
 }
@@ -1472,6 +1517,7 @@ input {
 #contents_subarea05 .nav_area ul li.active{
 	border:1px solid #ff5a26;
 	background-color: #ff5a26;
+	color:#FFF;
 }
 
 #contents_subarea05 .story {
