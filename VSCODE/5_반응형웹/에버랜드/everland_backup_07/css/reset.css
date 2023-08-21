@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/*웹폰트*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo');
+
+  /*CDN방식*/
+
+
+/* 초기화 reset css */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+html {font-size:12px;}
+body { 
+    line-height:1;
+	font-family: "Malgun Gothic" , sans-serif;
+    
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
+/*html 5 태그를 정상가동 하기 위함.*/
+
+
+ul {
+    list-style:none;
+}
+
+a { 
+	border:0;
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+	text-decoration:none;
+	color:#333;
+}
+
+img {
+	border:0; 
+	vertical-align:top; /*img 간격을 없애기 위함*/
+}
+	
+
+hr { 
+	display:block; 
+	border:0; 
+	margin:0; 
+	padding:0;
+}
+
+input, textarea {width:100%; margin:0; padding:0;}
+
+
+select, option, optgroup {
+	margin:0; padding:0; border:0;
+}
