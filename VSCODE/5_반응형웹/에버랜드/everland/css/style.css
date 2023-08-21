@@ -1196,6 +1196,7 @@ input {
 	border:1px solid #666;
 	border-radius:3px;
 	box-sizing: border-box;
+	margin-bottom:20px;
 }
 
 #contents_subarea02 .promotion .title {
@@ -1207,7 +1208,6 @@ input {
 
 #contents_subarea02 .promotion .dc01 {
 	display:flex;
-	flex-wrap:wrap;
 	justify-content: space-around;
 	background-color: #EEE;
 }
@@ -1240,6 +1240,53 @@ input {
 
 #contents_subarea02 .promotion .dc02 > ul > li img {
 	width:100%;
+}
+
+#contents_subarea02 .promotion .tab_menu{
+	width:100%;
+	margin:20px 0;
+}
+
+#contents_subarea02 .promotion .tab_menu ul {
+	width:70%;
+	margin:0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+
+#contents_subarea02 .promotion .tab_menu ul li {
+	color:#999;
+	cursor:pointer;
+}
+
+#contents_subarea02 .promotion .tab_menu ul li.active {
+	color:#333;
+	font-weight:bold;
+}
+
+#contents_subarea02 .promotion .tab_cont {
+}
+
+#contents_subarea02 .promotion .tab_cont ul {
+	width:85%;
+	margin:0 auto;
+	display:flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+
+#contents_subarea02 .promotion .tab_cont ul li {
+	width:24%;
+	box-sizing: border-box;
+	margin-bottom:10px;
+}
+
+#contents_subarea02 .promotion .tab_cont ul li img {
+	width:100%;
+}
+
+#contents_subarea02 .promotion .tab_cont ul li.orange {
+	width:49%;
 }
 
 
@@ -1776,7 +1823,6 @@ input {
 		width: 100%;
 		min-height: 1000px;
 		margin: 50px auto 0 auto;
-		background: #ff5;
 	}
 
 	#contents_subarea02 aside {
@@ -1960,6 +2006,12 @@ input {
 	}
 
 	/*vacation_package*/
+	
+	#vacation_package .sec_title img {
+		width:100%;
+	}
+
+
 	#vacation_package .work_wrap .work-list li {
 		width: 80%;
 		margin: 0 auto;
@@ -2035,11 +2087,24 @@ input {
 		width: 90%;
 		min-height: 1200px;
 		margin: 50px auto 0 auto;
-		background: #ff5;
+	}
+
+	#contents_subarea02 .promotion .tab_cont ul {
+		align-items: center;
 	}
 
 
-
+	#contents_subarea02 .promotion .tab_cont ul li {
+		width:49%;
+	}
+	
+	#contents_subarea02 .promotion .tab_cont ul li img {
+		width:100%;
+	}
+	
+	#contents_subarea02 .promotion .tab_cont ul li.orange {
+		width:100%;
+	}
 
 
 
